@@ -40,3 +40,6 @@ La audiencia objetivo serán todas las personas de todas las edades que tengan g
 
     [Tu entrada | Compra en línea de boletas para conciertos, deportes, teatro y más - tuentrada.com](https://tuentrada.com/)
     Nos gustó la forma en la que se organizan los elementos de cada página y la estética
+
+    Tablero de trabajo : https://star-meteoroid-882.notion.site/Grupo-8-c6dceb144be047058ad3fa741354de3d
+    
