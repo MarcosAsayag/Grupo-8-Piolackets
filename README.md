@@ -43,3 +43,9 @@ La audiencia objetivo serán todas las personas de todas las edades que tengan g
 
     Tablero de trabajo : https://star-meteoroid-882.notion.site/Grupo-8-c6dceb144be047058ad3fa741354de3d
     
+
+    Retroespectiva - Tablero de estrella de mar en Notion
+
+    https://www.notion.so/f6c7df3c0f39409e89fefd7f8cea7c65?v=80e6ff0bb08a478fa73dac00d2449c8b
+
+    
