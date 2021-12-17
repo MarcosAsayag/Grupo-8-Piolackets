@@ -15,10 +15,6 @@ La audiencia objetivo serán todas las personas de todas las edades que tengan g
     
     Estudiante de Administración, 23 años, Su principal motivación en este sitio web es que es fanático de la música y los conciertos
     
-- Agustín Gutiérrez
-    
-    Mi nombre es Agustín Gutiérrez tengo 26 años estudio Profesorado de Computación. Soy muy sociable me gustan los videojuegos, el entrenamiento y la ufc.
-
 
 
 - Páginas de referencia
@@ -42,4 +38,10 @@ La audiencia objetivo serán todas las personas de todas las edades que tengan g
     Nos gustó la forma en la que se organizan los elementos de cada página y la estética
 
     Tablero de trabajo : https://star-meteoroid-882.notion.site/Grupo-8-c6dceb144be047058ad3fa741354de3d
+    
+
+    Retroespectiva - Tablero de estrella de mar en Notion
+
+    https://www.notion.so/f6c7df3c0f39409e89fefd7f8cea7c65?v=80e6ff0bb08a478fa73dac00d2449c8b
+
     

@@ -13,6 +13,42 @@
         <link href="/css/styles.css" rel="stylesheet"> 
 </head>
 <body>
+
+    <main>
+        <form action="register.html" method="POST">
+            <div class="formulario-registro">
+                <div class="nombreyapellido">
+                    <label for="nombreyapellido">Nombre y apellido</label>
+                    <input type="text" name="nombreyapellido">
+                </div>
+                <div>
+                    <label for="usuario">Nombre de usuari@</label>
+                    <input type="text" name="usuario">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email">
+                </div>
+                <div>
+                    <label for="nacimiento">Fecha de nacimiento</label>
+                    <input type="date" name="nacimiento">
+                </div>
+                <div>
+
+                    <label for="contraseña">Contraseña</label>
+                    <input type="password" name="Contraseña">
+                </div>
+                <div>
+                    <label for="confirmarcontraseña">Confirmar Contraseña</label>
+                    <input type="password" name="confirmarcontraseña">
+                </div>
+                <div class="enviar-borrar">
+                    <button type="submit" class="enviar">Enviar</button>
+                    <button type="reset" class="borrar">Borrar</button>
+                </div>
+            </div>
+        </form>
+    </main>
     
 </body>
 </html>
