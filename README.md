@@ -15,10 +15,6 @@ La audiencia objetivo serán todas las personas de todas las edades que tengan g
     
     Estudiante de Administración, 23 años, Su principal motivación en este sitio web es que es fanático de la música y los conciertos
     
-- Agustín Gutiérrez
-    
-    Mi nombre es Agustín Gutiérrez tengo 26 años estudio Profesorado de Computación. Soy muy sociable me gustan los videojuegos, el entrenamiento y la ufc.
-
 
 
 - Páginas de referencia
