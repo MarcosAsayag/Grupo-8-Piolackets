@@ -12,9 +12,14 @@
         <link rel="stylesheet" href="/css/normalize.css">
         <link href="/css/styles.css" rel="stylesheet"> 
 </head>
-<body>
+<body class="body-logreg">
 
-    <main>
+    <header class="main-header">
+        <img width="600px" height="200px" src="/img/10-2.png" alt="" class="logo">
+        <h2 class="tituloEncabezado" ></h2>
+    </header>
+
+    <main class="main-logreg">
         <form action="register.html" method="POST">
             <div class="formulario-registro">
                 <div class="nombreyapellido">
@@ -41,6 +46,10 @@
                 <div>
                     <label for="confirmarcontraseña">Confirmar Contraseña</label>
                     <input type="password" name="confirmarcontraseña">
+                </div>
+                <div>
+                    <label for="fotodelusuario">Foto de Perfil</label>
+                    <input type="file" name="fotodelusuario">
                 </div>
                 <div class="enviar-borrar">
                     <button type="submit" class="enviar">Enviar</button>
