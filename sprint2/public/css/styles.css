@@ -1,3 +1,10 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .main-header {
     text-align: center;
     padding: 15px;
@@ -198,6 +205,48 @@
 
 
 
+.body-logreg {
+    box-sizing: border-box;
+    background-color: #ffcc00;
+}
+
+.main-logreg {
+    width: 100vw;
+    background-color: #ffcc00;
+    color: black;
+    display: block;
+    margin: auto;
+    text-align: left;
+}
+
+.formulario-registro{
+    display: block;
+    width: 50vw;
+    margin: auto;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: black;
+    color: #ffcc00;
+    
+}
+
+.enviar-borrar{
+    margin: auto;
+    display: block;
+    text-align: center;
+
+}
+
+.enviar, .borrar {
+
+    padding: 2px 4px;
+    background-color: #ffcc00;
+    color: white;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 5%;
+
+}
 
 
 
