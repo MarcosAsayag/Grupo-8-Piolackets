@@ -3,17 +3,27 @@
     padding: 15px;
 }
 
+/*Botón de cartelera del Home1*/
 .the-main {
     text-align: center;
 }
 
+/*Fondo del home 1*/
 .body-home-1{
-    background-color: #141414;
+    background-color: #ffcc00;
 }
 
-.tituloEncabezado{
+/*.tituloEncabezado{
     color: #ffcc00;
+}*/
+
+/*Botón de usuario del home2*/
+.usuario {
+    display: inline-block;
+    vertical-align:top;
 }
+
+
 
 
 
