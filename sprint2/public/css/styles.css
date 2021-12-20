@@ -103,7 +103,8 @@
 
 
 
-.Carrito1{font-family: 'Cabin', sans-serif;}
+.Carrito1{font-family: 'Cabin', sans-serif;
+    position: relative;}
 
 .imgg{display:block;
     margin-left: auto;
@@ -118,11 +119,16 @@
 #fondo1{background-color: #141414;
     border: solid 5px #4f5b66;
     border-radius: 15px;
+    position: relative;
+    width: 1350px;
     }
 .contenedor{ position: relative}
 
 .fondo2y3{background-color: #b4b4b4;
     border-radius: 15px;;
+    height: 900px;
+    position: relative;
+    width: 1350px;
 }
 
 /*#buscador-C1{padding: 10px 0px 0px 60px;}
@@ -135,6 +141,9 @@
     width: 800px;
 }
 
+.fondo4{
+    position: relative;
+}
 .container-1{
     width: 300px;
     height: 50px;
@@ -150,7 +159,6 @@
     width: 200px;
     height: 35px;
     background: #b4b4b4;
-    border: coral;
     font-size: 10pt;
     float: none ;
     color: #63717f;
@@ -193,22 +201,138 @@
 }
 
 .fondo4{
-    background-color: #b4b4b4;
-    margin: -150px 150px 500px 150px;
+    background-color: #EEEEEE;
+    margin: -150px 130px 0px 130px;
     border: solid 5px #141414;
     border-radius: 15px;
+    padding: 50px;
+    height: 750px;
+    width: 1100px;
+}
+.fondo4 .img2{
+    position: relative;
+        padding-left: -20px;
+    }
+#movv{
+    position: relative;
+    font-size: 25px;
+    color: #4f5b66;
+    left: 580px;
+    top: -640px;
+}
+.formato{
+    color: #ffcc00;
+}
+.fondo4 .mov1{
+    position: relative;
+    left: 590px;
+    top: -620px;
+    font-size: 1.5em;
+    color: #141414;
+    margin-bottom: 10px;
 }
 
-#moverIMG{
+.fondo4 .mov2{
+    position: relative;
+    left: 820px;
+    top: -655px;
+    font-size: 1.5em;
+    color: #141414;
+    margin-bottom: 10px;
+}
+
+.fondo4 .mov3{
+    position: relative;
+    left: 590px;
+    top: -680px;
+    font-size: 1.5em;
+    color: #141414;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.fondo4 .bloque1{
+    position: relative;
+    left: 580px;
+    top: -650px;
+    text-align: center;
+    font-size: 1em;
+    color: #b4b4b4;
+    border: solid 0.5px #b4b4b4;
+    width: 200px;
+    height: 100px;
+    padding: 30px 10px 10px 10px;
+
+}
+.fondo4 .bloque2{
+    position: relative;
+    left: 800px;
+    top: -750px;
+    text-align: center;
+    font-size: 1em;
+    color: #b4b4b4;
+    border: solid 0.5px #b4b4b4;
+    width: 200px;
+    height: 100px;
+    padding: 30px 10px 10px 10px;
+}
+
+.mov4{
+    position: relative;
+    left: 600px;
+    top: -730px;
+    font-size: 1.5em;
+    color: #141414;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+.box1{
+    position: relative;
+    padding-top: 37px;
+    left: 790px;
+    top: -350px;
+
+}
+
+.container-2{
+    width: 400px;
+    height: 0px;
+    margin-left: -200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.container-2 input#entradas{
+    width: 400px;
+    height: 60px;
+    background: #141414;
+    font-size: 15pt;
+    float: none ;
+    color: #EEEEEE;
+    padding-left: 100px; 
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+
+.container-2 .icon1{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 23px;
+    z-index: 1;
+    color: #ffcc00;
+}
+
+/*#moverIMG{
     padding: 0px 70px 10px 20px;
     margin: 70px 70px;
     
-}
+}*/
 
 .boton{
     background-color:#141414;
     font-size: 1.5em;
-    margin: -50px 150px 0px 150px;
+    margin: -50px 130px 0px 130px;
     padding: 4px;
     border-radius: 15px;
 }
@@ -256,9 +380,33 @@
 }
 
 
+.fondo5{
+    background-color: #141414;
+    position: relative;
+    width: 1350px;
+    height: 200px;
+    top: -10px;
+}
 
+.moverIconos{
+    position: relative;
+    font-size: 2em;
+    color: #4f5b66;
+    padding: 50px;
+    text-align: center;
+    bottom: -20px;
+}
+.moverIconos > div{
+    display: inline-block;
+    width: 5%;
+}
 
-
+.moverTexto h5 {
+    position: relative;
+    font-size: 1em;
+    color: #4f5b66;
+    text-align: center;
+}
 
 
 
