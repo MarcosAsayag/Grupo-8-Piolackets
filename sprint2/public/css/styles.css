@@ -117,10 +117,12 @@
 
 #fondo1{background-color: #141414;
     border: solid 5px #4f5b66;
+    border-radius: 15px;
     }
 .contenedor{ position: relative}
 
 .fondo2y3{background-color: #b4b4b4;
+    border-radius: 15px;;
 }
 
 /*#buscador-C1{padding: 10px 0px 0px 60px;}
@@ -147,7 +149,7 @@
 .container-1 input#search{
     width: 200px;
     height: 35px;
-    background: #4f5b66;
+    background: #b4b4b4;
     border: coral;
     font-size: 10pt;
     float: none ;
@@ -173,12 +175,12 @@
     margin-left: -50px;
     margin-top: 16px;
     z-index: 1;
-    color: #63717f;
+    color: #b4b4b4;
 }
 
 .container-1 .ayudaC1{
     font-size: 3em;
-    color: #63717f ;
+    color: #b4b4b4 ;
     position: absolute;
     top: -20%;
     margin-left: 1200px;}
@@ -187,17 +189,20 @@
     text-align: center;
     background-color: #b4b4b4;
     margin-bottom: 100px;
+    border-radius: 15px;
 }
 
 .fondo4{
     background-color: #b4b4b4;
     margin: -150px 150px 500px 150px;
     border: solid 5px #141414;
+    border-radius: 15px;
 }
 
 #moverIMG{
-    padding: 10px 70px 10px 20px;
+    padding: 0px 70px 10px 20px;
     margin: 70px 70px;
+    
 }
 
 .boton{
@@ -205,6 +210,7 @@
     font-size: 1.5em;
     margin: -50px 150px 0px 150px;
     padding: 4px;
+    border-radius: 15px;
 }
 
 .boton .boton1{
