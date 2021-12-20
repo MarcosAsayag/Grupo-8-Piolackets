@@ -103,18 +103,20 @@
 
 
 
-#carrito{font-family:'Times New Roman', Times, serif}
+.Carrito1{font-family: 'Cabin', sans-serif;}
+
 .imgg{display:block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -80px;
+    margin-top: -100px;
     object-fit: none;
-    width: 300px;
-	height: 100px;
-    background-color: #141414
+    width: 350px;
+	height: 130px;
+    padding: -15px;
     }
 
 #fondo1{background-color: #141414;
+    border: solid 5px #4f5b66;
     }
 .contenedor{ position: relative}
 
@@ -143,9 +145,9 @@
 }
 
 .container-1 input#search{
-    width: 250px;
+    width: 200px;
     height: 35px;
-    background: #b4b4b4;
+    background: #4f5b66;
     border: coral;
     font-size: 10pt;
     float: none ;
@@ -162,7 +164,7 @@
     margin-left: 16px;
     margin-top: 20px;
     z-index: 1;
-    color: #4f5b66;
+    color: #141414;
 }
 .container-1 .menu{
     font-size: 3em;
@@ -171,12 +173,12 @@
     margin-left: -50px;
     margin-top: 16px;
     z-index: 1;
-    color: #4f5b66;
+    color: #63717f;
 }
 
 .container-1 .ayudaC1{
     font-size: 3em;
-    color: #b4b4b4 ;
+    color: #63717f ;
     position: absolute;
     top: -20%;
     margin-left: 1200px;}
@@ -184,26 +186,68 @@
 .moverimgC1{
     text-align: center;
     background-color: #b4b4b4;
-    margin-bottom: -150px;
+    margin-bottom: 100px;
 }
 
 .fondo4{
-    background-color: #141414;
+    background-color: #b4b4b4;
     margin: -150px 150px 500px 150px;
+    border: solid 5px #141414;
 }
 
 #moverIMG{
-    padding: 70px 70px 70px 20px;
-    margin: 100px 100px;
+    padding: 10px 70px 10px 20px;
+    margin: 70px 70px;
 }
 
+.boton{
+    background-color:#141414;
+    font-size: 1.5em;
+    margin: -50px 150px 0px 150px;
+    padding: 4px;
+}
 
+.boton .boton1{
+    margin-left: 20px;
+    z-index: 1;
+    background-color: #b4b4b4;
+    color: #4f5b66;
+    padding: 2px;
+}
 
+.boton .boton2{
+    margin-left: 20px;
+    z-index: 1;
+    background-color: #b4b4b4;
+    color: #4f5b66;
+    padding: 2px;
+}
 
+.boton .boton3{
+    margin-left: 20px;
+    z-index: 1;
+    background-color: #b4b4b4;
+    color: #4f5b66;
+    padding: 2px;
+}
 
+.boton .boton4{
+    margin-left: 20px;
+    z-index: 1;
+    background-color: #b4b4b4;
+    color: #4f5b66;
+    padding: 2px;
+}
 
-
-
+/*.left{
+    margin-left: 20px;
+    background-color: black;
+    font-size: 3em;
+}*/
+.boton .b{
+    color: #b4b4b4;
+    padding: 2px;
+}
 
 
 
