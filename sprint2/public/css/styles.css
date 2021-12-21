@@ -622,18 +622,431 @@ h6{
     top: -10px;
 }
 
+.C3moverP > div{
+    color: #4f5b66;
+    position: relative;
+    padding-top: 37px;
+    left: 420px;
+    top: 0px;
+    display: inline-block;
+    width: 10%;
+    margin-bottom: 10px;
+}
+.C3moverP1 > div{
+    color: #4f5b66;
+    background-color: #b4b4b4;
+    position: relative;
+    padding: 5px;
+    margin-top:5px ;
+    left: 420px;
+    top: 0px;
+    display: inline-block;
+    width: 10%;
+}
+
+.C3moverP2 > div{
+    color: #141414;
+    position: relative;
+    padding: 5px;
+    margin-top:5px ;
+    left: 415px;
+    top: 20px;
+    display: inline-block;
+    width: 33%;
+}
+
+.C3moverP3 > div{
+    color: #4f5b66;
+    position: relative;
+    padding: 5px;
+    margin-top:13px ;
+    left: 415px;
+    top: 20px;
+    display: inline-block;
+    width: 33%;
+}
+.C3moverP4 > div{
+    color: #141414;
+    position: relative;
+    padding: 5px;
+    margin-top:5px ;
+    left: 415px;
+    top: 30px;
+    display: inline-block;
+    width: 33%;
+}
 
 
 
+.C3box2{
+    position: relative;
+    padding-top: 37px;
+    left: 680px;
+    top: -535px;
 
+}
 
+.C3container-2{ 
+    margin-left: -200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
+.C3container-2 input#entradas{
+    width: 280px;
+    height: 60px;
+    background: #EEEEEE;
+    font-size: 15pt;
+    float: none ;
+    color: #141414;
+    padding-left: 15px; 
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
 
+}
 
+.C3container-2 .icon1{
+    font-size: 2em;
+    position: absolute;
+    margin-left: 55px;
+    margin-top: 13px;
+    padding: -5px 0px 0px -5px;
+    z-index: 1;
+    color: #ffcc00;
+}
 
+.C3box1{
+    position: relative;
+    padding-top: 37px;
+    left: 1100px;
+    top: -480px;
+}
 
+.C3container-1{ 
+    margin-left: -200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
+.C3container-1 input#entradas{
+    width: 280px;
+    height: 60px;
+    background: #4f5b66;
+    font-size: 15pt;
+    float: none ;
+    color: #141414;
+    padding-left: 15px; 
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
 
+}
+
+.C3container-1 .icon1{
+    font-size: 2em;
+    position: absolute;
+    margin-left: 55px;
+    margin-top: 13px;
+    padding: -5px 0px 0px -5px;
+    z-index: 1;
+    color: #b4b4b4;
+}
+
+.C3box3{
+    position: relative;
+    padding-top: 37px;
+    left: 450px;
+    top: -770px;
+    margin-bottom: -500px;
+}
+.C3container-3 input#search{
+    width: 330px;
+    height: 40px;
+    background: #EEEEEE;
+    font-size: 15pt;
+    float: none ;
+    color: #141414;
+    padding-left: 15px; 
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 30px;
+
+}
+
+.C3box4{
+    position: relative;
+    padding-top: 37px;
+    left: 450px;
+    top: -970px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    top: -2850px;
+}
+.C3container-4 input#search{
+    width: 330px;
+    height: 40px;
+    background: #EEEEEE;
+    font-size: 15pt;
+    float: none ;
+    color: #141414;
+    padding-left: 15px; 
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 30px; 
+}
+
+.C3box5{
+    position: relative;
+    padding-top: 37px;
+    left: 450px;
+    margin-top:-10px;
+    margin-bottom: 0px;
+    top: -290px;
+}
+.C3container-5 input#search{
+    width: 330px;
+    height: 40px;
+    background: #EEEEEE;
+    font-size: 15pt;
+    float: none ;
+    color: #141414;
+    padding-left: 15px; 
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 30px;
+}
+
+.C3box6{
+    position: relative;
+    padding-top: 37px;
+    left: 450px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    top: -300px;
+}
+.C3container-6 input#search{
+    width: 330px;
+    height: 40px;
+    background: #EEEEEE;
+    font-size: 15pt;
+    float: none ;
+    color: #141414;
+    padding-left: 15px; 
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 30px;
+}
+
+.C3box7{
+    position: relative;
+    padding-top: 37px;
+    left: 450px;
+    margin-top: -10px;
+    margin-bottom: 2px;
+    top: -310px;
+}
+.C3container-7 input#search{
+    width: 165px;
+    height: 40px;
+    background: #EEEEEE;
+    font-size: 15pt;
+    float: none ;
+    color: #141414;
+    padding-left: 15px; 
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 30px;
+
+}
+
+.C3box8{
+    position: relative;
+    padding-top: 37px;
+    left: 620px;
+    top: -1035px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    top: -380px;
+}
+.C3container-8 input#search{
+    width: 165px;
+    height: 40px;
+    background: #EEEEEE;
+    font-size: 15pt;
+    float: none ;
+    color: #141414;
+    padding-left: 15px; 
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 30px;
+}
+
+.C3Datos{
+    position: relative;
+    margin-bottom: -200px;
+    top: -965px;
+    left: 450px;
+}
+
+.C3fondo2y3{background-color: #b4b4b4;
+    border-radius: 15px;;
+    height: 630px;
+    position: relative;
+    width: 1350px;
+}
+.C3fondo5{
+    background-color: #141414;
+    position: relative;
+    width: 1350px;
+    height: 200px;
+    top: -10px;
+}
+
+.C4box4{
+    position: relative;
+    padding-top: 37px;
+    left: 450px;
+    top: -970px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    top: -283px;
+}
+.C4container-4 input#search{
+    width: 160px;
+    height: 40px;
+    background: #EEEEEE;
+    font-size: 15pt;
+    float: none ;
+    color: #141414;
+    padding-left: 15px; 
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 30px; 
+}
+
+.C4box5{
+    position: relative;
+    padding-top: 37px;
+    left: 620px;
+    margin-top:-10px;
+    margin-bottom: 0px;
+    top: -350px;
+}
+.C4container-5 input#search{
+    width: 160px;
+    height: 40px;
+    background: #EEEEEE;
+    font-size: 15pt;
+    float: none ;
+    color: #141414;
+    padding-left: 15px; 
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 30px;
+}
+
+.C4box6{
+    position: relative;
+    padding-top: 37px;
+    left: 450px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    top: -355px;
+}
+.C4container-6 input#search{
+    width: 330px;
+    height: 40px;
+    background: #EEEEEE;
+    font-size: 15pt;
+    float: none ;
+    color: #141414;
+    padding-left: 15px; 
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 30px;
+}
+
+.C4box7{
+    position: relative;
+    padding-top: 37px;
+    left: 450px;
+    margin-top: -10px;
+    margin-bottom: 2px;
+    top: -365px;
+}
+.C4container-7 input#search{
+    width: 330px;
+    height: 40px;
+    background: #EEEEEE;
+    font-size: 15pt;
+    float: none ;
+    color: #141414;
+    padding-left: 15px; 
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 30px;
+
+}
+
+.C4box8{
+    position: relative;
+    padding-top: 37px;
+    left: 450px;
+    top: -1035px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    top: -380px;
+}
+.C4container-8 input#search{
+    width: 330px;
+    height: 40px;
+    background: #EEEEEE;
+    font-size: 15pt;
+    float: none ;
+    color: #141414;
+    padding-left: 15px; 
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 30px;
+}
+
+.C4box1{
+    position: relative;
+    padding-top: 37px;
+    left: 1100px;
+    top: -480px;
+}
+
+.C4container-1{ 
+    margin-left: -200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.C4container-1 input#entradas{
+    width: 280px;
+    height: 60px;
+    background: #ffcc00;
+    font-size: 15pt;
+    float: none ;
+    color: #141414;
+    padding-left: 15px; 
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+
+}
+
+.C4container-1 .icon1{
+    font-size: 2em;
+    position: absolute;
+    margin-left: 55px;
+    margin-top: 13px;
+    padding: -5px 0px 0px -5px;
+    z-index: 1;
+    color: #141414;
+}
 
 
 
