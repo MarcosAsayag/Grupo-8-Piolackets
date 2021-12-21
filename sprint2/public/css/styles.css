@@ -623,112 +623,16 @@ h6{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .body-logreg {
+    font-family: 'Cabin', sans-serif;
+    position: relative;
     box-sizing: border-box;
-    background-color: #ffcc00;
+    background-color: #b4b4b4;
 }
 
 .main-logreg {
     width: 100vw;
-    background-color: #ffcc00;
+    background-color: #b4b4b4;
     color: black;
     display: block;
     margin: auto;
@@ -736,15 +640,20 @@ h6{
 }
 
 .formulario-registro{
-    display: block;
-    width: 50vw;
+    width: 80vw;
     margin: auto;
     padding: 10px;
     border-radius: 3px;
     background-color: black;
     color: #ffcc00;
-    
+    text-align: center;
+
+}   
+.art-login{
+    text-align: center;
+    align-content: center;
 }
+    
 
 .enviar-borrar{
     margin: auto;
@@ -763,6 +672,7 @@ h6{
     border-radius: 5%;
 
 }
+
 
 
 
