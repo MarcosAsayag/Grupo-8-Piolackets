@@ -30,7 +30,9 @@
     vertical-align:top;
 }
 
-
+.body-home-2{
+    color: #4f5b66;
+}
 
 
 
@@ -796,7 +798,6 @@ h6{
     border-radius: 30px; 
 }
 
-<<<<<<< HEAD
 .C3box5{
     position: relative;
     padding-top: 37px;
@@ -1135,8 +1136,6 @@ h6{
 
 
 
-=======
->>>>>>> 2dabaf2899abdd7a248aacff789c0cc020cac76a
 .body-logreg {
     font-family: 'Cabin', sans-serif;
     position: relative;
