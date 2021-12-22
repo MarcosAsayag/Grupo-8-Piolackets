@@ -781,7 +781,7 @@ h6{
     top: -970px;
     margin-top: -10px;
     margin-bottom: 0px;
-    top: -2850px;
+    top: -283px;
 }
 .C3container-4 input#search{
     width: 330px;
@@ -796,7 +796,6 @@ h6{
     border-radius: 30px; 
 }
 
-<<<<<<< HEAD
 .C3box5{
     position: relative;
     padding-top: 37px;
@@ -846,7 +845,10 @@ h6{
     margin-top: -10px;
     margin-bottom: 2px;
     top: -310px;
+;
 }
+
+
 .C3container-7 input#search{
     width: 165px;
     height: 40px;
@@ -1036,7 +1038,6 @@ h6{
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     border-radius: 30px;
-
 }
 
 .C4container-1 .icon1{
@@ -1049,14 +1050,189 @@ h6{
     color: #141414;
 }
 
+.bodyLogin2{
+    background-image: url('/img/aa.png');
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 500px;
+    background-size: cover;
+    position: relative;
+    top: 100px;
+}
+
+.Ltexto{
+    color: #EEEEEE;
+    font-size: 40px;
+    position: relative ;
+    top: 130px;
+    left: 270px;
+}
+
+.Lbox{
+    position: relative;
+    padding-top: 100px;
+    left: 315px;
+    top: -160px;
+}
+
+
+.Lcontainer-1 input#entradas{
+    width: 200px;
+    height: 60px;
+    background: #141414;
+    font-size: 15pt;
+    float: none ;
+    color: #63717f;
+    padding-left: 15px; 
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+
+.Lmover1{
+    position: relative;
+    padding-left:15px ;
+    left: 770px;
+    top: -165px;
+    bottom: -200px;
+}
+
+/*.Lcontainer-1 .icon1{
+    font-size: 2em;
+    position: absolute;
+    margin-left: 55px;
+    margin-top: 13px;
+    padding: -5px 0px 0px -5px;
+    z-index: 1;
+    color: #141414;
+}*/
+.Lbox2{
+    position: relative;
+    padding-top: 37px;
+    left: 750px;
+    top: -390px;
+    margin-top: -10px;
+}
+.Lcontainer-2 input#search{
+    width: 330px;
+    height: 40px;
+    background: #EEEEEE;
+    font-size: 15pt;
+    float: none ;
+    color: #141414;
+    padding-left: 15px; 
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 30px; 
+}
+
+
+.Lbox3{
+    position: relative;
+    padding-top: 37px;
+    left: 750px;
+    top: -390px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+}
+.Lcontainer-3 input#search{
+    width: 330px;
+    height: 40px;
+    background: #EEEEEE;
+    font-size: 15pt;
+    float: none ;
+    color: #141414;
+    padding-left: 15px; 
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 30px; 
+}
+
+.Lbox4{
+    position: relative;
+    padding-top: 37px;
+    left: 750px;
+    margin-top:-10px;
+    margin-bottom: 0px;
+    top: -390px;
+}
+.Lcontainer-4 input#search{
+    width: 330px;
+    height: 40px;
+    background: #EEEEEE;
+    font-size: 15pt;
+    float: none ;
+    color: #141414;
+    padding-left: 15px; 
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 30px;
+}
 
+.Lbox5{
+    position: relative;
+    padding-top: 37px;
+    left: 750px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    top: -390px;
+}
+.Lcontainer-5 input#search{
+    width: 330px;
+    height: 40px;
+    background: #EEEEEE;
+    font-size: 15pt;
+    float: none ;
+    color: #141414;
+    padding-left: 15px; 
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 30px;
+}
 
+.Lbox6{
+    position: relative;
+    padding-top: 100px;
+    left: 800px;
+    top: -460px;
+}
 
 
+.Lcontainer-6 input#entradas{
+    width: 200px;
+    height: 60px;
+    background: #141414;
+    font-size: 15pt;
+    float: none ;
+    color: #ffcc00;
+    padding-left: 15px; 
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
 
+.moverTexto h5 {
+    position: relative;
+    font-size: 0.7em;
+    color: #EEEEEE;
+    top: -200px;
+    margin: -010px 0px 100px 400px;
+}
 
 
+.c3moverTexto{
+    position: relative;
+    font-size: 1em;
+    color: #4f5b66;
+    text-align: center;
+}
 
+.c4moverTexto{
+    position: relative;
+    font-size: 1em;
+    color: #4f5b66;
+    text-align: center;
+}
 
 
 
@@ -1135,8 +1311,11 @@ h6{
 
 
 
-=======
->>>>>>> 2dabaf2899abdd7a248aacff789c0cc020cac76a
+
+
+
+
+
 .body-logreg {
     font-family: 'Cabin', sans-serif;
     position: relative;
