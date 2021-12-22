@@ -34,6 +34,39 @@
     color: #4f5b66;
 }
 
+/* */
+
+.h2Bloque1{
+    width: 1340px;
+    height: 200px;
+    border: solid 3px #141414;
+    /*padding: 20px;
+    position: relative;
+    top: 20px;
+    left: 5px;*/
+    display: inline-block;
+}
+
+.h2arrow1 {
+    font-size: 3em;
+    color: #ffcc00;
+    position: relative;
+    left: 1240px;
+    top: -50px;
+    display: inline-block;
+}
+.h2arrow2 {
+    font-size: 3em;
+    color:#ffcc00;
+    position: relative;
+    top: -50px;
+}
+
+.hsimg1{
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+}
 
 
 
@@ -42,13 +75,7 @@
 
 
 
-
-
-
-
-
-
-
+/* */
 
 
 
