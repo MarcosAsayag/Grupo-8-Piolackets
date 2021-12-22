@@ -45,3 +45,7 @@ app.get('/CarritoParte2', (req, res) => {
 app.get('/CarritoParte4', (req, res) => {
     res.sendFile(path.resolve(__dirname,'./views/CarritoParte4.html'));
 });
+
+app.get('/CarritoParte3', (req, res) => {
+    res.sendFile(path.resolve(__dirname,'./views/CarritoParte3.html'));
+});
