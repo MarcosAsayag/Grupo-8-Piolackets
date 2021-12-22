@@ -1237,9 +1237,20 @@ h6{
 }
 
 
+.H2moverTexto{
+    position: relative;
+    font-size: 1em;
+    color: #4f5b66;
+    text-align: center;
+}
 
-
-
+.H2fondo2y3{
+    background-color: #EEEEEE;
+    border-radius: 15px;;
+    height: 630px;
+    position: relative;
+    width: 1350px;
+}
 
 
 
