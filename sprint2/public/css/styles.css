@@ -5,9 +5,55 @@
     padding: 0;
 }
 
+/*Home 1*/
+.body-home-1{
+    background-color: #4f5b66;
+    font-family: 'Jost', sans-serif;
+}
 
+.logo {
+    display: flex;
+    width: 70%;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-nav-bar {
+    display: inline-block;
+    justify-content: center;
+    margin: 20px 40px;
+    padding: 5px 65px;
+    border-radius: 10px;
+    border: none;
+}
+.cartelera-button{
+    margin: auto;
+    margin-top: 200px;
+    padding: 5px 10px;
+    display: block;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffcc00;
+    color: #141414;
+    font-size: 18px;
+}
+
+.cartelera-button:hover{
+    background-color: #141414;
+    color: #4f5b66;
+
+}
+
+/*Home 2*/
 
 /*Botón de usuario del home2*/
+
+.logo-home-2{
+    display: flex;
+    margin: auto;
+}
+
 .usuario {
     display: inline-block;
     vertical-align:top;
