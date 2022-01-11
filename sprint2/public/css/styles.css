@@ -5,24 +5,7 @@
     padding: 0;
 }
 
-.main-header {
-    text-align: center;
-    padding: 15px;
-}
 
-/*Botón de cartelera del Home1*/
-.the-main {
-    text-align: center;
-}
-
-/*Fondo del home 1*/
-.body-home-1{
-    background-color: #ffcc00;
-}
-
-/*.tituloEncabezado{
-    color: #ffcc00;
-}*/
 
 /*Botón de usuario del home2*/
 .usuario {
