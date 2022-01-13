@@ -37,6 +37,7 @@
     background-color: #ffcc00;
     color: #141414;
     font-size: 18px;
+    transition: all 459ms ;
 }
 
 .cartelera-button:hover{
@@ -50,8 +51,10 @@
 /*Botón de usuario del home2*/
 
 .logo-home-2{
+    width: 40%;
     display: flex;
     margin: auto;
+    margin-top: 5px;
 }
 
 .usuario {
@@ -59,8 +62,62 @@
     vertical-align:top;
 }
 
-.body-home-2{
-    color: #4f5b66;
+.body-home-2 {
+    background-color: #63717f;
+}
+.main-header{
+    background-color: #4f5b66;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.burguer-nav {
+    font-size: 25px;
+    position: relative;
+    left: 50px;
+    top: 55px;
+    color: #ffcc00;
+}
+
+.user-logo-container {
+    font-size: 25px;
+    position: relative;
+    left: 290px;
+    bottom: 33px;
+    color: #ffcc00;
+}
+
+main {
+    padding-top: 10px;
+    background-color: #141414;
+}
+
+.img-concert {
+    width: 80%;
+    height: 130px;
+}
+
+
+.conciertos-container-1 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.left-arrow {
+    position: relative;
+    color: #ffcc00;
+    font-size: 35px;
+    left: 8px;
+    bottom: 75px;
+}
+
+.right-arrow {
+    position: relative;
+    color: #ffcc00;
+    font-size: 35px;
+    left: 310px;
+    bottom: 113px;
 }
 
 /* */
