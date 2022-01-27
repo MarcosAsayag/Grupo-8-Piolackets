@@ -7,7 +7,7 @@
 
 /*Home 1*/
 .body-home-1{
-    background-color: #4f5b66;
+    background-color: #27a2bb;
     font-family: 'Jost', sans-serif;
 }
 
@@ -42,7 +42,7 @@
 
 .cartelera-button:hover{
     background-color: #141414;
-    color: #4f5b66;
+    color: #d6d6d6;
 
 }
 
@@ -63,10 +63,10 @@
 }
 
 .body-home-2 {
-    background-color: #63717f;
+    background-color: #27a2bb;
 }
 .main-header{
-    background-color: #4f5b66;
+    background-color: #85bfcd;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -76,7 +76,7 @@
     position: relative;
     left: 50px;
     top: 55px;
-    color: #ffcc00;
+    color: #f4d10c;
 }
 
 .user-logo-container {
@@ -84,29 +84,31 @@
     position: relative;
     left: 290px;
     bottom: 33px;
-    color: #ffcc00;
+    color: #f4d10c;
 }
 
 main {
     padding-top: 10px;
-    background-color: #141414;
+    background-color: #f4b076;
 }
 
 .img-concert {
-    width: 80%;
+    width: 250px;
     height: 130px;
+    position: relative;
+    left: 65px;
 }
 
 
 .conciertos-container-1 {
     margin-top: 20px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
 
 .left-arrow {
     position: relative;
-    color: #ffcc00;
+    color: #bc753c;
     font-size: 35px;
     left: 8px;
     bottom: 75px;
@@ -114,9 +116,9 @@ main {
 
 .right-arrow {
     position: relative;
-    color: #ffcc00;
+    color: #bc753c;
     font-size: 35px;
-    left: 310px;
+    left: 345px;
     bottom: 113px;
 }
 
@@ -162,54 +164,6 @@ main {
 
 
 /* */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
