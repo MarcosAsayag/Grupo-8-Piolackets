@@ -30,22 +30,15 @@ app.get('/registro', (req, res) => {
     res.sendFile(path.resolve(__dirname,'./views/registro.html'));
 });
 
-app.get('/descripcion', (req, res) => {
-    res.sendFile(path.resolve(__dirname,'./views/CarritoParte1.html'));
+app.get('/Carrito1',(req,res)=>{
+    res.sendFile(path.resolve(__dirname,'./views/Carrito1.html'));
 });
-
-app.get('/CarritoParte1', (req, res) => {
-    res.sendFile(path.resolve(__dirname,'./views/CarritoParte2.html'));
+app.get('/Carrito2',(req,res)=>{
+    res.sendFile(path.resolve(__dirname,'./views/Carrito2.html'));
 });
-
-app.get('/CarritoParte2', (req, res) => {
-    res.sendFile(path.resolve(__dirname,'./views/CarritoParte3.html'));
+app.get('/Carrito3',(req,res)=>{
+    res.sendFile(path.resolve(__dirname,'./views/Carrito3.html'));
 });
-
-app.get('/CarritoParte4', (req, res) => {
-    res.sendFile(path.resolve(__dirname,'./views/CarritoParte4.html'));
-});
-
-app.get('/CarritoParte3', (req, res) => {
-    res.sendFile(path.resolve(__dirname,'./views/CarritoParte3.html'));
+app.get('/Carrito4',(req,res)=>{
+    res.sendFile(path.resolve(__dirname,'./views/Carrito4.html'));
 });
