@@ -8,12 +8,20 @@
     background-color: #27a2bb;
 }
 
-.logo {
+header {
     display: flex;
-    width: 70%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedor-logo{
     margin-top: 25vw;
-    margin-left: auto;
-    margin-right: auto;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    width: 70%;
 }
 
 .form-of-homepage1{
@@ -889,6 +897,7 @@ button a{
     
     .search-nav-bar {
         padding: 5px 60px;
+        font-size: 23px;
     }
     .cartelera-button{
         margin-top: 150px;
@@ -948,7 +957,7 @@ button a{
 
     .search-nav-bar {
         padding: 5px 60px;
-        font-size: 20px;
+        font-size: 30px;
     }
     .cartelera-button{
         margin-top: 150px;
@@ -1026,6 +1035,25 @@ button a{
         margin-right: 50px;
         font-size: 15px;
     }
+
+     /*Home 1*/
+    
+     .logo {
+        width: 45%;
+    }
+
+    .contenedor-logo{
+        margin-top: 5vw;
+    }
+    
+     .search-nav-bar {
+        padding: 5px 80px;
+        font-size: 25px;
+    }
+    .cartelera-button{
+        margin-top: 100px;
+    }
+        
 
     
 }
