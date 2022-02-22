@@ -1,6 +1,8 @@
+const path = require('path');
+
 const carritoController = {
     carrito1: (req, res) => {
-        res.render('Carrito1')
+        res.sendFile(path.join(__dirname,'../views/products/carrito1.ejs'))
     },
 
     carrito2: (req, res) => {
