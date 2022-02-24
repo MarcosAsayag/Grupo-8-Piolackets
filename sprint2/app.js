@@ -1,6 +1,6 @@
 const express = require('express');
 const mainRoutes = require('./routes/mainRoutes');
-const carritos = require('./routes/carritos');
+const carrito = require('./routes/carritos');
 const registerLogin = require('./routes/registerLogin');
 
 const app = express();
@@ -10,7 +10,7 @@ app.use(express.static('public'));
 
 app.use('/', mainRoutes);
 
-app.use('/carritos',carritos);
+app.use('/carritos',carrito);
 
 app.use('/regLog',registerLogin);
 
