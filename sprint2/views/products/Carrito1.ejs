@@ -1,19 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CarritoParte1</title>
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        rel="stylesheet" />
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap" rel="stylesheet">
-            <link rel="stylesheet" href="/css/normalize.css">
-            <link href="/css/styles.css" rel="stylesheet"> 
-            <STYLE> A  {text-decoration: none;} </STYLE>
-    </head>
+<head>
+    <%- include('../partials/head.ejs') %>
+</head>
+
 <body >
         <header>
             <nav class="header-C1ocultar1">
@@ -102,18 +92,7 @@
             </nav> 
         </main>
         <footer class="footer-fondo">
-            <div class= "footer-moverIconos">
-                <button type="submit"> <a href="#"><i class="fab fa-instagram"></a></i></button>
-                <button type="submit"> <a href="#"><i class="fab fa-twitter"></i></a></button>
-                <button type="submit"> <a href="#"><i class="fab fa-facebook-square"></i></a></dbuttoniv>
-             </div>
-            <div class="footer-info">
-                <button type="submit"><a href="#">Politica de Privacidad</a></button>
-                <p> | </p>
-                <button type="submit"><a href="#">Terminos y Condiciones Legales</a></button>
-                <p> | </p>
-                <button type="submit"><a href="#">Para Productores y Salas</a></button>
-            </div>
+            <%- include('../partials/footer.ejs') %>
         </footer>
 </body>
 </html>
