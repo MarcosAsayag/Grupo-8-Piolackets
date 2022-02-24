@@ -73,26 +73,32 @@ header {
 .body-home-2 {
     background-color: #27a2bc;
 }
+
+.tittles {
+    margin: 0;
+}
+
 .main-header{
     background-color: #27a2bc;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
-.burguer-nav {
-    font-size: 25px;
-    position: relative;
-    left: 50px;
-    top: 55px;
-    color: #f4d10c;
+.logo-container{
+    display: flex;
+    justify-content: space-around;
 }
 
-.user-logo-container {
+.fa-bars {
     font-size: 25px;
-    position: relative;
-    left: 290px;
-    bottom: 33px;
     color: #f4d10c;
+    margin: 25px
+}
+
+.fa-user-circle {
+    font-size: 25px;
+    color: #f4d10c;
+    margin: 25px
 }
 
 main {
@@ -103,21 +109,29 @@ main {
 main article img {
     width: 250px;
     height: 130px;
+    margin: 35px;  
 }
 
 
-main article div {
+/*main article div {
     margin: auto;
+}*/
+
+.conciertos-container-1{
 }
 
 .product-description{
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     background-color:#27a2bc;
-    width: 50%;
+    
+}
+
+.product-tittle{
+    margin: auto;
     text-align: center;
+    font-size: 15px;
 }
 
 .left-arrow {

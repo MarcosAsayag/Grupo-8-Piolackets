@@ -1,20 +1,21 @@
+const path = require('path');
 
 const carritoController = {
     carrito1: (req, res) => {
-        return res.render('Carrito1')
-    }}
-/*
+        res.render(path.join(__dirname,'../views/products/carrito1.ejs'))
+    },
+
     carrito2: (req, res) => {
-        res.render('Carrito2')
+        res.render(path.join(__dirname,'../views/products/carrito2.ejs'))
     },
 
     carrito3: (req, res) => {
-        res.render('Carrito3')
+        res.render(path.join(__dirname,'../views/products/carrito3.ejs'))
     },
 
     carrito4: (req, res) => {
-        res.render('Carrito4')
+        res.render(path.join(__dirname,'../views/products/carrito4.ejs'))
     }
-};*/
+};
 
 module.exports = carritoController;
