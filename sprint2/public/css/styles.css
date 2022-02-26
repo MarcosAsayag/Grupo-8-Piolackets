@@ -1,11 +1,11 @@
 /*Home 1*/
 .body-home-1{
-    background-color: #27a2bb;
+    background-color: #85BFCD;
     font-family: 'Jost', sans-serif;
 }
 
 .main-home-1{
-    background-color: #27a2bb;
+    background-color: #85BFCD;
 }
 
 header {
@@ -42,8 +42,8 @@ header {
     padding: 5px 10px;
     border-radius: 10px;
     border: none;
-    background-color: #ffcc00;
-    color: #141414;
+    background-color: #2a445e;
+    color: #d6d6d6;
     font-size: 18px;
     transition: all 459ms ;
 }
@@ -71,15 +71,18 @@ header {
 }
 
 .body-home-2 {
-    background-color: #27a2bc;
+    background-color: #85BFCD;
 }
 
 .tittles {
-    margin: 0;
+    margin: 0px 35px;
+    position: relative;
+    top:15px
+
 }
 
 .main-header{
-    background-color: #27a2bc;
+    background-color: #85BFCD;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -89,7 +92,7 @@ header {
     justify-content: space-around;
 }
 
-.fa-bars {
+/*.fa-bars {
     font-size: 25px;
     color: #f4d10c;
     margin: 25px
@@ -100,32 +103,81 @@ header {
     color: #f4d10c;
     margin: 25px
 }
-
+*/
 main {
     padding-top: 10px;
-    background-color: #f4b076;
+    background-color: #d6d6d6;
 }
 
-main article img {
-    width: 250px;
-    height: 130px;
-    margin: 35px;  
-}
+
 
 
 /*main article div {
     margin: auto;
 }*/
 
-.conciertos-container-1{
-}
 
 .product-description{
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    background-color:#27a2bc;
+    background-color:#85BFCD;
     
+}
+
+ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.slider{
+    position: relative;
+    width: 250px;
+    height: 130px;
+}
+
+ul.slider li{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    background-color: #85BFCD;
+    transition: opacity 0.5s;
+}
+
+ul.slider li img {
+    width: 100%;
+    height: 130px;
+    margin: 35px;
+}
+
+ul.slider li:first-child{
+    opacity:1;
+}
+
+ul.slider li:target{
+    opacity: 1;
+}
+
+.menu{
+    text-align: center;
+    margin: 50px 40px 5px 40px;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a{
+    display: inline-block;
+    color: #d6d6d6;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 18px;
 }
 
 .product-tittle{
@@ -133,7 +185,7 @@ main article img {
     text-align: center;
     font-size: 15px;
 }
-
+/*
 .left-arrow {
     position: relative;
     color: #bc753c;
@@ -151,12 +203,12 @@ main article img {
 }
 
 footer {
-    text-align: center;
-    color: #f4d10c;
+   text-align: center;
+    color: #85BFCD;
     margin-top: 40px;
     font-family: 'Jost', sans-serif;
     font-size: 13px;
-}
+}*/
 
 footer div {
     margin: 25px 15px
