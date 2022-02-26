@@ -71,7 +71,7 @@ header {
 }
 
 .body-home-2 {
-    background-color: #85BFCD;
+    background-color: #d6d6d6;
 }
 
 .tittles {
@@ -80,15 +80,13 @@ header {
     margin: 0px;
 }
 
-.main-header{
-    background-color: #85BFCD;
-    /*padding-top: 5px;*/
-    padding-bottom: 5px;
-}
-
 .logo-container{
     display: flex;
     justify-content: space-around;
+}
+
+.conciertos-container-1{
+    margin: 10px;
 }
 
 .separacion{
@@ -106,6 +104,7 @@ main {
     margin: 20px px;
 }
 
+/*Estilos de Slider*/
 .product-description-slider{
     display: flex;
     flex-direction: column;
@@ -140,7 +139,7 @@ ul.slider li{
 }
 
 ul.slider li img {
-    width: 100%;
+    width: 93%;
     height: 130px;
     margin: 20px;
     border-radius: 5%;
@@ -160,7 +159,6 @@ ul.slider li:target{
 }
 
 .menu li{    
-    margin: px;
     display: inline-block;
     text-align: center;
     border-radius: 20%;
@@ -171,7 +169,6 @@ ul.slider li:target{
 .menu li:hover{
     background-color: #2a445e;
     color: #d6d6d6;
-
 }
 
 .menu li a{
@@ -182,6 +179,23 @@ ul.slider li:target{
     padding: 9px;
 }
 
+.concert-tittle{
+    display: inline-block;
+    margin: auto;
+    background-color: #85BFCD;
+    width: 150px;
+    height: 15px;
+}
+
+ul p.concert-tittle:first-child{
+    opacity:1;
+}
+
+ul p.concert-tittle:target{
+    opacity: 1;
+}
+
+/*Descripción de entradas de las tarjetas sin slider*/
 .product-tittle{
     margin: auto;
     text-align: center;
@@ -435,11 +449,10 @@ body{
 }
 
 .footer-fondo{
+    padding-bottom: 20px;
     background-color: #85BFCD;
     display: block;
 }
-
-
 
 .footer-moverIconos{
     font-size: 2em;
