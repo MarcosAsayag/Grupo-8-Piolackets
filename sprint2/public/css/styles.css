@@ -105,94 +105,77 @@ main {
 }
 
 /*Estilos de Slider*/
-.product-description-slider{
-    display: flex;
-    flex-direction: column;
-    background-color:#85BFCD;
-    width: 90%;
-    border-radius: 10%;
-    margin:16px;
+
+.product-description-slider {
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+    background-color: #85BFCD;
+    border-radius: 12% ;
+
+/*El shadow de cada tarjeta*/
+    box-shadow: 6px 7px 31px -6px rgba(120,120,120,1);
 }
 
-
-
-ul, li{
-    margin: 0;
+.product-description-slider ul {
+    display: flex;
     padding: 0;
+    width: 500%;
+
+    animation: alteracion 20s infinite;
+    animation-direction: alternate;
+}
+
+.product-description-slider li {
+    width: 100%;
     list-style: none;
 }
 
-ul.slider{
-    position: relative;
-    width: 250px;
-    height: 130px;
+.product-description-slider img{
+    width: 100%;
+    border-radius: 12%;
+    padding: 15px;
 }
 
-ul.slider li{
-    position: absolute;
-    left: 0;
-    top: 0;
-    opacity: 0;
-    width: inherit;
-    height: inherit;
-    transition: opacity 0.5s;
+@keyframes alteracion {
+    0% {margin-left: 0;}
+    15% { margin-left: 0;}
+
+    20% { margin-left: -100%;}
+    35% { margin-left: -100%;}
+
+    40% { margin-left: -200%;}
+    55% { margin-left: -200%;}
+
+    60% { margin-left: -300%;}
+    75% { margin-left: -300%;}
+
+    80% { margin-left: -400%;}
+    100% { margin-left: -400%;}
+
+
 }
 
-ul.slider li img {
-    width: 93%;
-    height: 130px;
-    margin: 20px;
-    border-radius: 5%;
-}
 
-ul.slider li:first-child{
-    opacity:1;
-}
-
-ul.slider li:target{
-    opacity: 1;
-}
-
-.menu{
-    text-align: center;
-    margin: 50px 40px 5px 40px;
-}
-
-.menu li{    
-    display: inline-block;
-    text-align: center;
-    border-radius: 20%;
-    border: #2a445e 1px solid;
-    transition: all 459ms ;
-}
-
-.menu li:hover{
-    background-color: #2a445e;
-    color: #d6d6d6;
-}
-
-.menu li a{
-    display: inline-block;
-    color: #d6d6d6;
-    text-decoration: none;
-    font-size: 18px;
-    padding: 9px;
-}
-
+ /*Los estilos del título de cada slider*/
 .concert-tittle{
     display: inline-block;
-    margin: auto;
+    text-align: center;
+    margin-left: 55px ;
     background-color: #85BFCD;
     width: 150px;
     height: 15px;
 }
 
-ul p.concert-tittle:first-child{
-    opacity:1;
-}
+/*Estilos del precio de cada slider*/
 
-ul p.concert-tittle:target{
-    opacity: 1;
+.concert-price{
+    display: inline-block;
+    text-align: center;
+    margin: 0px 55px;
+    background-color: #85BFCD;
+    width: 150px;
+    height: 15px;
 }
 
 /*Descripción de entradas de las tarjetas sin slider*/
@@ -207,9 +190,13 @@ ul p.concert-tittle:target{
     display: flex;
     flex-direction: column;
     background-color:#85BFCD;
+    padding-bottom: 15px ;
     width: 90%;
     border-radius: 10%;
-    margin: 20px 16px;
+    margin: 40px 16px;
+
+    /*Box-shadow de las tarjetas que no son el slider*/
+    box-shadow: 6px 18px 31px -17px rgba(120,120,120,1);
 }
 
 .img-not-slider{
@@ -977,6 +964,10 @@ button a{
     .cartelera-button{
         margin-top: 150px;
     }
+
+    /*Home 2*/
+    
+    
 }
 
 @media (min-width:932px) {
