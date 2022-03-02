@@ -71,20 +71,13 @@ header {
 }
 
 .body-home-2 {
-    background-color: #85BFCD;
+    background-color: #d6d6d6;
 }
 
 .tittles {
-    margin: 0px 35px;
     position: relative;
-    top:15px
-
-}
-
-.main-header{
-    background-color: #85BFCD;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    top:15px;
+    margin: 0px;
 }
 
 .logo-container{
@@ -92,123 +85,126 @@ header {
     justify-content: space-around;
 }
 
-/*.fa-bars {
-    font-size: 25px;
-    color: #f4d10c;
-    margin: 25px
+.conciertos-container-1{
+    margin: 10px;
 }
 
-.fa-user-circle {
-    font-size: 25px;
-    color: #f4d10c;
-    margin: 25px
+.separacion{
+    width: 200px;
+    background-color: #2a445e;
+    border-color: #2a445e;
+    height: 6px;
+    border: none;
+    margin: 0px;
 }
-*/
+
 main {
     padding-top: 10px;
     background-color: #d6d6d6;
+    margin: 20px px;
 }
 
+/*Estilos de Slider*/
 
-
-
-/*main article div {
+.product-description-slider {
+    width: 85%;
     margin: auto;
-}*/
+    overflow: hidden;
+    background-color: #85BFCD;
+    border-radius: 12% ;
 
-
-.product-description{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    background-color:#85BFCD;
-    
+/*El shadow de cada tarjeta*/
+    box-shadow: 6px 7px 31px -6px rgba(120,120,120,1);
 }
 
-ul, li{
-    margin: 0;
+.product-description-slider ul {
+    display: flex;
     padding: 0;
+    width: 500%;
+
+    animation: alteracion 20s infinite;
+    animation-direction: alternate;
+}
+
+.product-description-slider li {
+    width: 100%;
     list-style: none;
 }
 
-ul.slider{
-    position: relative;
-    width: 250px;
-    height: 130px;
-}
-
-ul.slider li{
-    position: absolute;
-    left: 0;
-    top: 0;
-    opacity: 0;
-    width: inherit;
-    height: inherit;
-    background-color: #85BFCD;
-    transition: opacity 0.5s;
-}
-
-ul.slider li img {
+.product-description-slider img{
     width: 100%;
-    height: 130px;
-    margin: 35px;
+    border-radius: 12%;
+    padding: 15px;
 }
 
-ul.slider li:first-child{
-    opacity:1;
+@keyframes alteracion {
+    0% {margin-left: 0;}
+    15% { margin-left: 0;}
+
+    20% { margin-left: -100%;}
+    35% { margin-left: -100%;}
+
+    40% { margin-left: -200%;}
+    55% { margin-left: -200%;}
+
+    60% { margin-left: -300%;}
+    75% { margin-left: -300%;}
+
+    80% { margin-left: -400%;}
+    100% { margin-left: -400%;}
+
+
 }
 
-ul.slider li:target{
-    opacity: 1;
-}
 
-.menu{
-    text-align: center;
-    margin: 50px 40px 5px 40px;
-}
-
-.menu li{
+ /*Los estilos del título de cada slider*/
+.concert-tittle{
     display: inline-block;
     text-align: center;
+    margin-left: 55px ;
+    background-color: #85BFCD;
+    width: 150px;
+    height: 15px;
 }
 
-.menu li a{
+/*Estilos del precio de cada slider*/
+
+.concert-price{
     display: inline-block;
-    color: #d6d6d6;
-    text-decoration: none;
-    margin: 10px;
-    font-size: 18px;
+    text-align: center;
+    margin: 0px 55px;
+    background-color: #85BFCD;
+    width: 150px;
+    height: 15px;
 }
 
+/*Descripción de entradas de las tarjetas sin slider*/
 .product-tittle{
     margin: auto;
     text-align: center;
     font-size: 15px;
-}
-/*
-.left-arrow {
-    position: relative;
-    color: #bc753c;
-    font-size: 35px;
-    left: 8px;
-    bottom: 75px;
+    border-top: #2a445e solid 1px;
 }
 
-.right-arrow {
-    position: relative;
-    color: #bc753c;
-    font-size: 35px;
-    left: 345px;
-    bottom: 113px;
+.product-description{
+    display: flex;
+    flex-direction: column;
+    background-color:#85BFCD;
+    padding-bottom: 15px ;
+    width: 90%;
+    border-radius: 10%;
+    margin: 40px 16px;
+
+    /*Box-shadow de las tarjetas que no son el slider*/
+    box-shadow: 6px 18px 31px -17px rgba(120,120,120,1);
 }
 
-footer {
-   text-align: center;
-    color: #85BFCD;
-    margin-top: 40px;
-    font-family: 'Jost', sans-serif;
-    font-size: 13px;
-}*/
+.img-not-slider{
+    height: 130px;
+    margin: 20px;
+    border-radius: 5%;
+}
+
 
 footer div {
     margin: 25px 15px
@@ -440,7 +436,9 @@ body{
 }
 
 .footer-fondo{
+    padding-bottom: 20px;
     background-color: #85BFCD;
+    display: block;
 }
 
 .footer-moverIconos{
@@ -457,9 +455,7 @@ body{
     cursor:pointer;
     overflow: hidden;    
 }
-.footer-fondo{
-    display: none;
-}
+
 
 #main-iconos{
     color: #85BFCD;
@@ -968,6 +964,10 @@ button a{
     .cartelera-button{
         margin-top: 150px;
     }
+
+    /*Home 2*/
+    
+    
 }
 
 @media (min-width:932px) {
