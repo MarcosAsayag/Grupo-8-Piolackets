@@ -14,6 +14,7 @@ app.use('/carritos',carrito);
 
 app.use('/regLog',registerLogin);
 
+
 app.listen('3000', () => {
     console.log('Servidor escuchando en puerto 3000');
 });
