@@ -18,9 +18,7 @@ La audiencia objetivo serán todas las personas de todas las edades que tengan g
 - Juan Gyldenfeldt:
 
     Tengo 23 años, como estudios previos a la programación realize unos años la carrera de técnico en diseño de imagen, sonido y multimedia, y profesorado de historia.
-    En mi tiempo libre me encuentro jugando videojuegos, viendo series o películas, leyendo comics, mangas o algun libro. Ademas de esto tambien suelo realizar sesiones de D&D
-    con mis amigos.
-
+    En mi tiempo libre me encuentro jugando videojuegos, viendo series o películas, leyendo comics, mangas o algun libro.
 
 - Páginas de referencia
     
