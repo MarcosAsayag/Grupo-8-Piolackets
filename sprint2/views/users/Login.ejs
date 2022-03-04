@@ -5,33 +5,28 @@
 </head>
 <body class="bodyLogin2">
         <header>
-        <%- include('../partials/header.ejs') %>
+            <%- include('../partials/header.ejs') %>
         </header>
-        <div class="Ltexto">
-            <h2> Bienvenidos </h2>
-        </div> 
-        <div class="Lmover1"> <img width="250" height="250" src="/img/11.png" > </div>
-        <div class="Lbox">
-            <div class="Lcontainer-1"> 
-                <input type="submit" id="entradas" value=" Suscribite "  />
-            </div>
-        </div>
-        <div class="Lbox2">
-            <div class="Lcontainer-2">
-                <input type="search" id="search" placeholder="Tel. usuario o correo electronico" />
-            </div>
-        </div>
-        <div class="Lbox3">
-            <div class="Lcontainer-3">
-                <input type="search" id="search" placeholder="Contraseña" />
-            </div>
-        </div>
-        
-        <div class="Lbox6">
-            <div class="Lcontainer-6"> 
-                <input type="submit" id="entradas" value=" Iniciar Secion "  />
-            </div>
-        </div>
+
+        <main>
+            <div class="x"> <img src="/img/Piolackets (7).png" > </div>
+            <div class="x">
+                <h2> ¡Hola! </h2>
+                <h3>Ingresa tu correo y contraseña</h3>
+
+                <p>Si no tiene cuenta por favor suscríbase acá</p>
+                <button>Suscribite</button>
+            </div> 
+        </main>
+
+        <form action="/" method="get" class="x">
+            <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+            <input type="email" name="user-email" id="Correo" value="Correo" placeholder="Ej: *****@email.com" class="x" required>
+            <label for="Correo">Correo</label>
+            <input type="password" name="user-password" id="Contraseña" value="Contraseña" placeholder="******" class="x" required>
+            <label for="Contraseña">Contraseña</label>
+        </form>
+
         <footer class="footer-fondo">
             <%- include('../partials/footer.ejs') %>
         </footer>
