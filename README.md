@@ -15,6 +15,11 @@ La audiencia objetivo serán todas las personas de todas las edades que tengan g
     
     Estudiante de Administración, 23 años, Su principal motivación en este sitio web es que es fanático de la música y los conciertos
     
+- Juan Gyldenfeldt:
+
+    Tengo 23 años, como estudios previos a la programación realize unos años la carrera de técnico en diseño de imagen, sonido y multimedia, y profesorado de historia.
+    En mi tiempo libre me encuentro jugando videojuegos, viendo series o películas, leyendo comics, mangas o algun libro. Ademas de esto tambien suelo realizar sesiones de D&D
+    con mis amigos.
 
 
 - Páginas de referencia
