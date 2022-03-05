@@ -1,54 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    rel="stylesheet" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/css/normalize.css">
-        <link href="/css/styles.css" rel="stylesheet"> 
+        <%- include('../partials/head.ejs') %>
 </head>
-<body class="bodyLogin2">
-        <div class="Ltexto">
-            <h2> Bienvenidos </h2>
-        </div> 
-        <div class="Lmover1"> <img width="250" height="250" src="/img/11.png" > </div>
-        <div class="Lbox">
-            <div class="Lcontainer-1"> 
-                <input type="submit" id="entradas" value=" Ingresar "  />
-            </div>
-        </div>
-        <div class="Lbox2">
-            <div class="Lcontainer-2">
-                <input type="search" id="search" placeholder="Nro. de movil o correo electronico" />
-            </div>
-        </div>
-        <div class="Lbox3">
-            <div class="Lcontainer-3">
-                <input type="search" id="search" placeholder="Nombre Completo" />
-            </div>
-        </div>
-        <div class="Lbox4">
-            <div class="Lcontainer-4">
-                <input type="search" id="search" placeholder="Nombre de usuario" />
-            </div>
-        </div>
-        <div class="Lbox5">
-            <div class="Lcontainer-5">
-                <input type="search" id="search" placeholder="Contraseña" />
-            </div>
-        </div>
-        
-        <div class="Lbox6">
-            <div class="Lcontainer-6"> 
-                <input type="submit" id="entradas" value=" Registrarse "  />
-            </div>
-        </div>
+<body>
+        <header>
+            <%- include('../partials/header.ejs') %>
+        </header>
 
+        <main>
+            <div class="x"><img src="/img/Piolackets (7).png"></div>
+            <div class="x">
+                <h1>Bienvenido</h1>
+
+                <p>Si ya esta suscripto ingresa por acá</p>
+                <button>Ingresa</button>
+            </div> 
+        </main>
+
+        <form action="/" method="get" class="x">
+            <a>Logo</a>
+            <input type="text" name="user-name" id="Nombre" value="Nombre" placeholder="Ej: Piolackets" class="x" required>
+            <label for="Nombre">Nombre</label>
+            <input type="email" name="user-email" id="Correo" value="Correo" placeholder="Ej: piolackets@email.com" class="x" required>
+            <label for="Correo">Correo</label>
+            <input type="password" name="user-password" id="Contraseña" value="Contraseña" placeholder="piolacketssecretpassword" class="x" required>
+            <label for="Contraseña">Contraseña</label>
+        </form>
+
+        <footer class="footer-fondo">
+            <%- include('../partials/footer.ejs') %>
+        </footer>
 </body>
 </html>
