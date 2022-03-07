@@ -9,6 +9,9 @@ const crearProducControllers = {
     },
     confirmacion: (req, res) => {
         res.render(path.join(__dirname,'../views/products/confirmacionEntradas'))
+    },
+    edicion: (req, res) => {
+        res.render(path.join(__dirname,'../views/products/ediciónDeProductos'))
     }
 };
 
