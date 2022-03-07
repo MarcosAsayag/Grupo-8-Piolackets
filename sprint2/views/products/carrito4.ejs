@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <%- include('./partials/head.ejs') %>
+        <%- include('../partials/head.ejs') %>
     </head>
 <body >
         <header>
-            <%- include('./partials/header.ejs') %>
+            <%- include('../partials/header.ejs') %>
         </header>
         <main>
             <nav class="main-C1ocultar1">
@@ -44,20 +44,17 @@
                     </article>
                     <div class="movil-formulario">
                         <form class="form-flex" action="resultado.html" method="POST">
-                            <label><h3>Completa tus datos</h3></label>
-                            <input id="main-agrandar" type="text" name="Nombre y Apellido" placeholder="Nombre y Apellido"  required>
-                            <input id="main-agrandar" type="email" name="E-mail" placeholder="E-mail" required>
-                            <label class="labell" for="fecha">Fecha de nacimiento</label>
-                            <input id="main-agrandar" type="date" name="fecha" id="fecha" required>
-                            <input id="main-agrandar" type="text" name="Domicilio" placeholder="Domicilio" required>
+                            <label><h3>Completa los datos de la tarjeta</h3></label>
+                            <input id="main-agrandar" type="tel" name="Nro de la Tarjeta" placeholder="Nro de la Tarjeta"  required>
                             <div>   
-                                <input id="main-agrandar" type="text" name="Provincia" placeholder="Provincia"  required>
-                                <input id="main-agrandar" type="text" name="Municipio" placeholder="Municipio" required>
+                                <input id="main-agrandar" type="tel" name="Mes-Vencimiento" placeholder="Mes de venc."  required>
+                                <input id="main-agrandar" type="tel" name="Municipio" placeholder="Año venc." required>
                             </div>
-                            <input id="main-agrandar" type="tel" name="Tel" placeholder="Tel" required>                            </form>
+                            <input id="main-agrandar" type="tel" name="Cod. de Seguridad" placeholder="Cod. de seguridad" required>
+                            <input id="main-agrandar" type="text" name="titular" placeholder="Nombre del titular" required>
+                            <div class="main-continuar-button"><button type="submit"><a href="http://localhost:3030/home2"> Continuar</a></button></div>
+                        </form>                           
                     </div>
-                    <div class="main-continuar-button"><button type="submit"><a href="http://localhost:3030/carrito4"> Continuar</a></button></div>
-
                 </article>
             </nav>   
             <nav class="main-C1ocultar2">  
@@ -104,19 +101,22 @@
                     <article class="cuadrado22">
                         <div>
                             <form class="form-flex" action="resultado.html" method="POST">
-                                <label><h3>Completa tus datos</h3></label>
-                                <input id="main-agrandar" type="text" name="Nombre y Apellido" placeholder="Nombre y Apellido"  required>
-                                <input id="main-agrandar" type="email" name="E-mail" placeholder="E-mail" required>
-                                <label class="labell" for="fecha">Fecha de nacimiento</label>
-                                <input id="main-agrandar" type="date" name="fecha" id="fecha" required>
-                                <input id="main-agrandar" type="text" name="Domicilio" placeholder="Domicilio" required>
+                                <label><h3>Completa los datos de la tarjeta</h3></label>
+                                <input id="main-agrandar" type="tel" name="Nro de la Tarjeta" placeholder="Nro de la Tarjeta"  required>
                                 <div>   
-                                    <input id="main-agrandar" type="text" name="Provincia" placeholder="Provincia"  required>
-                                    <input id="main-agrandar" type="text" name="Municipio" placeholder="Municipio" required>
+                                    <input id="main-agrandar" type="tel" name="Mes-Vencimiento" placeholder="Mes de venc."  required>
+                                    <input id="main-agrandar" type="tel" name="Municipio" placeholder="Amo venc," required>
                                 </div>
-                                <input id="main-agrandar" type="tel" name="Tel" placeholder="Tel" required>                            </form>
+                                <input id="main-agrandar" type="tel" name="Cod. de Seguridad" placeholder="Cod. de seguridadl" required>
+                                <input id="main-agrandar" type="text" name="titular" placeholder="Nombre del titular" required>
+                                <input id="main-agrandar" type="text" name="DNI" placeholder="DNI del titular" required>
+                            </form>
+                            <div class="container-5"> 
+                                <span class="icon1"><i class="fas fa-sort-down"></i></span>
+                                <button  type="submit"><a href="http://localhost:3030/home2"> COMPRAR</a></button>
+                            </div>
                         </div>
-                        <div class="cua22-info">
+                        <div class="cua22-info4">
                             <h2 class="compra"> DATOS DE TU COMPRA</h2>
                             <article class="c2-main-mover">
                                 <div class="moverP1"> 
@@ -150,17 +150,13 @@
                                     </div>
                                 </div>
                             </article>
-                            <div class="container-4"> 
-                                <span class="icon1"><i class="far fa-arrow-alt-circle-right"></i></span>
-                                <button  type="submit"><a href="http://localhost:3030/carrito4"> Continuar</a></button>
-                            </div>
                         </div>
                     </article>
                 </nav>
             </nav> 
         </main>
         <footer class="footer-fondo">
-            <%- include('./partials/footer.ejs') %>
+            <%- include('../partials/footer.ejs') %>
         </footer>
 </body>
 </html>

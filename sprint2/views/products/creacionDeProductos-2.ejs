@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head.ejs') %>
+</head>
+<body>
+    <article>
+        <form action="/views/" method="post">
+
+            <label for="">Imágenes</label>
+            <input type="image" id="image"> 
+
+            <label for="">Tipo de entrada y precio</label>
+            <input type="text" id="typeOfEntry"> 
+            <input type="number" id="price"> 
+
+            <div>
+                <button id="back" type="button">Atrás</button>
+                <button id="accept" type="submit">Aceptar</button>
+            </div>
+
+        </form>
+    </article>
+</body>
+</html>

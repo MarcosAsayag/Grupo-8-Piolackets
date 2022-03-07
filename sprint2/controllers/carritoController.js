@@ -2,19 +2,19 @@ const path = require('path');
 
 const carritoController = {
     carrito1: (req, res) => {
-        res.render(path.join(__dirname,'../views/Carrito1.ejs'))
+        res.render(path.join(__dirname,'../views/products/carrito1.ejs'))
     },
 
     carrito2: (req, res) => {
-        res.render(path.join(__dirname,'../views/Carrito2.ejs'))
+        res.render(path.join(__dirname,'../views/products/carrito2.ejs'))
     },
 
     carrito3: (req, res) => {
-        res.render(path.join(__dirname,'../views/Carrito3.ejs'))
+        res.render(path.join(__dirname,'../views/products/carrito3.ejs'))
     },
 
     carrito4: (req, res) => {
-        res.render(path.join(__dirname,'../views/Carrito4.ejs'))
+        res.render(path.join(__dirname,'../views/products/carrito4.ejs'))
     }
 };
 

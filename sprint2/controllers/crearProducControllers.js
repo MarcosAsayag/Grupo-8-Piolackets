@@ -2,13 +2,13 @@ const path = require('path');
 
 const crearProducControllers = {
     crear: (req, res) => {
-        res.render(path.join(__dirname,'../views/crearEvento/creaciónDeEntradas'))
+        res.render(path.join(__dirname,'../views/products/creacionDeProductos-1'))
     },
-    crear1: (req, res) => {
-        res.render(path.join(__dirname,'../views/crearEvento/creaciónDeEntradas1'))
+    crearPagina2: (req, res) => {
+        res.render(path.join(__dirname,'../views/products/creacionDeProductos-2'))
     },
-    crear2: (req, res) => {
-        res.render(path.join(__dirname,'../views/crearEvento/creaciónDeEntradas2'))
+    confirmacion: (req, res) => {
+        res.render(path.join(__dirname,'../views/products/confirmacionEntradas'))
     }
 };
 

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head.ejs') %>
+</head>
+<body>
+    <article>
+        <form action="/views/creaciónDeEntradas-2.ejs" method="post">
+
+            <label for="">Nombre del evento</label>
+            <input type="text" id="name"> 
+
+            <label for="">Fecha</label>
+            <input type="date" id="date"> 
+
+            <label for="">Hora</label>
+            <input type="datetime" id="hour"> 
+
+            <label for="">Lugar</label>
+            <input type="text" id="place"> 
+
+            <label for="">Detalles</label>
+            <input type="text" id="details"> 
+
+            <div>
+                <button id="cancel" type="reset">Cancelar</button>
+                <button id="accept" type="submit">Aceptar</button>
+            </div>
+
+        </form>
+    </article>
+</body>
+</html>
