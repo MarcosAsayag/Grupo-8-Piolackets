@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "name": "Dula Peep",
+        "description": "ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac",
+        "price": 6757.42,
+        "discount": 15,
+        "image": "product_1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "The Strokes",
+        "description": "justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam",
+        "price": 5168.89,
+        "discount": 11,
+        "image": "product_2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Daft Punk",
+        "description": "posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis",
+        "price": 5819.53,
+        "discount": 13,
+        "image": "product_3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Justin Bieber",
+        "description": "ipsum dolor sit amet consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis",
+        "price": 2480.02,
+        "discount": 1,
+        "image": "product_4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Red Hot Chilli Peppers",
+        "description": "justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula",
+        "price": 5049.57,
+        "discount": 20,
+        "image": "product_5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "AC/DC",
+        "description": "turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut",
+        "price": 9949.06,
+        "discount": 25,
+        "image": "product_6.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Soda Stereo",
+        "description": "euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere",
+        "price": 9930.57,
+        "discount": 13,
+        "image": "product_7.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Katy Perry",
+        "description": "erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem",
+        "price": 3781.87,
+        "discount": 35,
+        "image": "product_8.jpg"
+    }
+]
