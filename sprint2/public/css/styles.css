@@ -1,7 +1,23 @@
+/*Estilos generales*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Cabin', 'Jost', sans-serif;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+footer div {
+    margin: 25px 15px
+}
+
 /*Home 1*/
+
 .body-home-1{
     background-color: #85BFCD;
-    font-family: 'Jost', sans-serif;
 }
 
 .main-home-1{
@@ -98,7 +114,7 @@ header {
     margin: 0px;
 }
 
-main {
+.home-2-main{
     padding-top: 10px;
     background-color: #d6d6d6;
     margin: 20px px;
@@ -205,33 +221,57 @@ main {
     border-radius: 5%;
 }
 
-
-footer div {
-    margin: 25px 15px
-}
-
-.networks{
-    font-size: 15px;    font-weight: bold;
-}
-
-
-
-
+/*Estilos de creación de productos*/
+.creation-product-body{
+    background-color:#d6d6d6
+  }
+  
+  .creation-product-form-container{
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .creation-product-form{
+    display:flex;
+    flex-direction: column;
+  }
+  
+  .creation-product-form label {
+    display:inline-block;
+    text-align:center;
+    margin-top:15px;
+    margin-bottom:6px;
+    color:#707070;
+    font-size:18px
+  }
+  
+  .creation-product-form input{
+    border:none;
+    border-radius: 15px;
+    box-shadow: 3px 3px 18px -9px rgba(0,0,0,1);
+  }
+  
+   #details {
+      height:100px;
+  }
+  
+  .buttons-container {
+    display: inline-block;
+    text-align:center;
+    margin-top:35px;
+  }
+  
+  .creation-product-body form button{
+    border-radius:20px;
+    border: none;
+    padding:5px 15px 5px 15px;
+    background-color:#2a445e;
+    color: #d6d6d6;
+  }
 
 
 /* */
-
-
-
-*{
-    box-sizing: border-box;
-}
-
-body{
-    font-family: 'Cabin', sans-serif;
-    max-width: 100%;
-    box-sizing: border-box;
-}
 
 .C1header{
     background-color: #85BFCD;
@@ -967,7 +1007,23 @@ button a{
 
     /*Home 2*/
     
-    
+
+    /*Creación de productos*/
+
+    .creation-product-form{
+        background-color: #85BFCD;
+        margin: 60px 0;
+        border-radius: 32px;
+        border: solid #FFFFFF 1px;
+        padding: 15px 100px;
+        box-shadow: 3px 3px 18px -9px rgb(0 0 0);
+
+    }
+    .creation-product-form label{
+       color: #FFFFFF;
+
+    }
+
 }
 
 @media (min-width:932px) {
@@ -1029,6 +1085,12 @@ button a{
         margin-top: 150px;
     }
     
+/*Creación de productos*/
+
+    .creation-product-form{
+        padding: 15px 200px;
+    }
+
 }
 
 @media (min-width:1200px) {
@@ -1119,9 +1181,8 @@ button a{
     .cartelera-button{
         margin-top: 100px;
     }
-        
-
     
+
 }
 
 

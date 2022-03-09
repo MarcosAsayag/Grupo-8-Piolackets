@@ -3,31 +3,42 @@
 <head>
     <%- include('../partials/head.ejs') %>
 </head>
-<body>
-    <article>
-        <form action="/views/creaciónDeEntradas-2.ejs" method="post">
+<body class="creation-product-body">
 
-            <label for="">Nombre del evento</label>
-            <input type="text" id="name"> 
+    <header>
+        <%- include('../partials/header.ejs') %>
+    </header>
 
-            <label for="">Fecha</label>
-            <input type="date" id="date"> 
+    <div class="creation-product-form-container">
+        <article>
+            <form action="/views/creaciónDeEntradas-2.ejs" method="post"class="creation-product-form">
+    
+                <label for="">Nombre del evento</label>
+                <input type="text" id="name"> 
+                
+                <label for="">Fecha</label>
+                <input type="date" id="date"> 
 
-            <label for="">Hora</label>
-            <input type="datetime" id="hour"> 
+                <label for="">Hora</label>
+                <input type="datetime" id="hour"> 
+        
+                <label for="">Lugar</label>
+                <input type="text" id="place"> 
 
-            <label for="">Lugar</label>
-            <input type="text" id="place"> 
+                <label for="">Detalles</label>
+                <input type="text" id="details"> 
+    
+                <div class="buttons-container">
+                    <button id="cancel" type="reset">Cancelar</button>
+                    <button id="accept" type="submit">Aceptar</button>
+                </div>
 
-            <label for="">Detalles</label>
-            <input type="text" id="details"> 
+            </form>
+        </article>
+    </div>
 
-            <div>
-                <button id="cancel" type="reset">Cancelar</button>
-                <button id="accept" type="submit">Aceptar</button>
-            </div>
-
-        </form>
-    </article>
+    <footer>
+        <%- include('../partials/footer.ejs') %>
+    </footer>
 </body>
 </html>
