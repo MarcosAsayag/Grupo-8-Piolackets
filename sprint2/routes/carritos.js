@@ -2,7 +2,7 @@ const express = require('express');
 const carritoController = require('../controllers/carritoController');
 const router = express.Router();
 
-router.get('/crr1', carritoController.carrito1);
+router.get('/crr1/:id', carritoController.carrito1);
 
 router.get('/crr2', carritoController.carrito2);
 
