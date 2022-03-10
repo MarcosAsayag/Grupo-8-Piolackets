@@ -1,12 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <head>
+        <%- include('../partials/head.ejs') %>
+    </head>
 <body>
+    <head>
+        <%- include('../partials/head.ejs') %>
+    </head>
+    <body class="creation-product-body">
+        <header>
+            <%- include('../partials/header.ejs') %>
+        </header>
     
+        <div class="creation-product-form-container">
+            <article>
+                <form action="#" method="get"class="creation-product-form">
+                    
+                    <label for="">Imágenes</label>
+                    <input type="file" id="image">
+    
+                    <label for="">Nombre del evento</label>
+                    <input type="text" id="name"> 
+                    
+                    <label for="">Fecha y hora</label>
+                    <input type="date" id="date"> 
+            
+                    <label for="">Lugar</label>
+                    <input type="text" id="place"> 
+    
+                    <label for="">Detalles</label>
+                    <input type="text" id="details"> 
+    
+                    <label for="">Tipo de entrada y precio</label>
+                    <input type="text" id="typeOfEntry"> 
+        
+                    <div class="buttons-container">
+                        <button id="cancel" type="reset">Cancelar</button>
+                        <button id="accept" type="submit">Aceptar</button>
+                    </div>
+    
+                </form>
+            </article>
+        </div>
+    
+        <footer>
+            <%- include('../partials/footer.ejs') %>
+        </footer>
+    
+    </body>
 </body>
 </html>

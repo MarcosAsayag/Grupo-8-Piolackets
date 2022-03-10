@@ -221,23 +221,23 @@ header {
     border-radius: 5%;
 }
 
-/*Estilos de creación de productos*/
+/*Estilos de creación de productos 1-2 y de edición-confirmación*/
 .creation-product-body{
     background-color:#d6d6d6
   }
   
-  .creation-product-form-container{
+.creation-product-form-container{
     display: flex;
     justify-content: center;
-    
+    padding: 30px;
   }
   
-  .creation-product-form{
+.creation-product-form{
     display:flex;
     flex-direction: column;
   }
   
-  .creation-product-form label {
+.creation-product-form label {
     display:inline-block;
     text-align:center;
     margin-top:15px;
@@ -246,29 +246,45 @@ header {
     font-size:18px
   }
   
-  .creation-product-form input{
+.creation-product-form input{
+    padding: 10px;
     border:none;
-    border-radius: 15px;
+    border-radius: 20px;
     box-shadow: 3px 3px 18px -9px rgba(0,0,0,1);
+    color: #707070;
   }
   
-   #details {
+#details {
       height:100px;
   }
   
-  .buttons-container {
+.buttons-container {
     display: inline-block;
     text-align:center;
     margin-top:35px;
   }
   
-  .creation-product-body form button{
+.creation-product-body form button{
     border-radius:20px;
     border: none;
     padding:5px 15px 5px 15px;
     background-color:#2a445e;
     color: #d6d6d6;
   }
+
+#typeOfEntry{
+      margin-bottom: 20px;
+      margin-top: 5px;
+  }
+
+#image{
+      width: 184px;
+      padding-bottom: 60px;
+  }
+
+.creation-product-form input{
+        background-color: #FFFFFF;
+    }
 
 
 /* */
@@ -1008,7 +1024,7 @@ button a{
     /*Home 2*/
     
 
-    /*Creación de productos*/
+/*Estilos de creación de productos 1-2 y de edición-confirmación*/
 
     .creation-product-form{
         background-color: #85BFCD;
@@ -1085,7 +1101,7 @@ button a{
         margin-top: 150px;
     }
     
-/*Creación de productos*/
+/*Estilos de creación de productos 1-2 y de edición-confirmación*/
 
     .creation-product-form{
         padding: 15px 200px;

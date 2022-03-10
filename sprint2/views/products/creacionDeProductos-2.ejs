@@ -3,23 +3,34 @@
 <head>
     <%- include('../partials/head.ejs') %>
 </head>
-<body>
-    <article>
-        <form action="/views/" method="post">
+<body class="creation-product-body">
 
-            <label for="">Imágenes</label>
-            <input type="image" id="image"> 
+    <header>
+        <%- include('../partials/header.ejs') %>
+    </header>
 
-            <label for="">Tipo de entrada y precio</label>
-            <input type="text" id="typeOfEntry"> 
-            <input type="number" id="price"> 
+    <div class="creation-product-form-container">
+        <article>
+            <form action="#" method="post" class="creation-product-form">
 
-            <div>
-                <button id="back" type="button">Atrás</button>
-                <button id="accept" type="submit">Aceptar</button>
-            </div>
+                <label for="">Imágenes</label>
+                <input type="file" id="image">
 
-        </form>
-    </article>
+                <label for="">Tipo de entrada y precio</label>
+                <input type="text" id="typeOfEntry"> 
+                <input type="number" id="price"> 
+
+                <div class="buttons-container">
+                    <button id="back" type="button">Atrás</button>
+                    <button id="accept" type="submit">Aceptar</button>
+                </div>
+
+            </form>
+        </article>
+    </div>
+
+    <footer>
+        <%- include('../partials/footer.ejs') %>
+    </footer>
 </body>
 </html>
