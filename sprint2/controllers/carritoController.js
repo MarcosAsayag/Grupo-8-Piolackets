@@ -1,15 +1,8 @@
 const path = require('path');
-const fs = require('fs');
-
-const productsFilePath = path.join(__dirname, '../data/products.json');
-const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 
 const carritoController = {
     carrito1: (req, res) => {
-        let carritoId = req.params.id;
-        const detalleProducto = productos.filter(element => element.id == carritoId);
-
-        res.render('carrito1', { detalleProducto });
+        res.render(path.join(__dirname,'../views/products/carrito1.ejs'))
     },
 
     carrito2: (req, res) => {
