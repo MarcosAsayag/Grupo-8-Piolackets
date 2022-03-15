@@ -11,26 +11,27 @@
 
     <div class="creation-product-form-container">
         <article>
-            <form action="/crear/create2" method="get"class="creation-product-form">
+
+            <form action="/crear/create2" method="post" class="creation-product-form">
     
                 <label for="">Nombre del evento</label>
-                <input type="text" id="name"> 
+                <input type="text" id="name" name="name"> 
                 
                 <label for="">Fecha</label>
-                <input type="date" id="date"> 
+                <input type="date" id="time" name="time"> 
 
                 <label for="">Hora</label>
-                <input type="datetime" id="hour"> 
+                <input type="datetime" id="hour" name="hour"> 
         
                 <label for="">Lugar</label>
-                <input type="text" id="place"> 
+                <input type="text" id="place" name="place"> 
 
                 <label for="">Detalles</label>
-                <input type="text" id="details"> 
+                <input type="text" id="description" name="description"> 
     
                 <div class="buttons-container">
-                    <button id="cancel" type="reset">Cancelar</button>
-                    <button id="accept" type="submit">Aceptar</button>
+                    <button class="cancel" type="reset">Cancelar</button>
+                    <button class="accept" type="submit">Aceptar</button>
                 </div>
 
             </form>

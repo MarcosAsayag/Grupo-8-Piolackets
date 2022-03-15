@@ -12,36 +12,39 @@
             <%- include('../partials/header.ejs') %>
         </header>
     
+    <% productEdit.forEach(element => { %>
+     
         <div class="creation-product-form-container">
             <article>
-                <form action="#" method="get"class="creation-product-form">
+                <form action="/crear/edition/<%= element.id %>?_method=PUT " method="post"class="creation-product-form">
                     
                     <label for="">Imágenes</label>
-                    <input type="file" id="image">
-    
+                    <input type="file" name="image" value="<%=  element.image %> ">
+                    
                     <label for="">Nombre del evento</label>
-                    <input type="text" id="name"> 
+                    <input type="text" name="name" value="<%=  element.name %> "> 
                     
                     <label for="">Fecha y hora</label>
-                    <input type="date" id="date"> 
-            
+                    <input type="date" name="date" value="<%=  element.time %> "> 
+                    
                     <label for="">Lugar</label>
-                    <input type="text" id="place"> 
-    
+                    <input type="text" name="place" value="<%=  element.place %> "> 
+                    
                     <label for="">Detalles</label>
-                    <input type="text" id="details"> 
-    
+                    <input type="text" name="details" value="<%=  element.description %> "> 
+                    
                     <label for="">Tipo de entrada y precio</label>
-                    <input type="text" id="typeOfEntry"> 
-        
+                    <input type="text" name="typeOfEntry" value="<%=  element.price %> "> 
+                    
                     <div class="buttons-container">
                         <button id="cancel" type="reset">Cancelar</button>
                         <button id="accept" type="submit">Aceptar</button>
                     </div>
-    
+                    
                 </form>
             </article>
         </div>
+    <% }) %>
     
         <footer>
             <%- include('../partials/footer.ejs') %>

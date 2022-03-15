@@ -7,9 +7,9 @@ const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 const carritoController = {
     carrito1: (req, res) => {
         let carritoId = req.params.id;
-        const detalleProducto = productos.filter(element => element.id == carritoId);
+        const detalleProducto = products.filter(element => element.id == carritoId);
 
-        res.render('carrito1', { detalleProducto });
+        res.render('products/carrito1', { detalleProducto : detalleProducto });
     },
 
     carrito2: (req, res) => {
