@@ -82,6 +82,15 @@ const crearProducControllers = {
 
         fs.writeFileSync(productsFilePath, editedProducts, 'utf-8');
         res.render('products', { products });
+    },
+
+    destroy: (req, res) => {
+        const idProduct = req.params.id;
+        const productDelete = products.filter(element => element.id != idProduct);
+        let deletedProducts = JSON.stringify(productDelete, null, ' ');
+
+        fs.writeFileSync(productsFilePath, deletedProducts, 'utf-8');
+        res.render('carrito1', { products })
     }
 };
 
