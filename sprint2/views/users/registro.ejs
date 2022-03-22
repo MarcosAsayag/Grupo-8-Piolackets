@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
         <%- include('../partials/head.ejs') %>
+        <title>Registro</title>
 </head>
 <body>
         <header>
@@ -14,12 +15,12 @@
                 <h1>Bienvenido</h1>
 
                 <p>Si ya esta suscripto ingresa por acá</p>
-                <button>Ingresa</button>
+                <button src="/sprint2/views/users/Login.ejs">Ingresa</button>
             </div> 
         </main>
 
         <form action="/" method="get" class="x">
-            <a>Logo</a>
+            <input type="file" id="avatar">
             <input type="text" name="user-name" id="Nombre" value="Nombre" placeholder="Ej: Piolackets" class="x" required>
             <label for="Nombre">Nombre</label>
             <input type="email" name="user-email" id="Correo" value="Correo" placeholder="Ej: piolackets@email.com" class="x" required>
