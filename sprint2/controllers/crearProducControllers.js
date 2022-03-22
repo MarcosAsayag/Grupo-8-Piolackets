@@ -19,6 +19,8 @@ const crearProducControllers = {
 
             ...req.body,
         }
+        console.log(req.body);
+        console.log(productoNuevo);
 
         products.push(productoNuevo);
 
@@ -84,14 +86,14 @@ const crearProducControllers = {
         res.render('products', { products });
     },
 
-    destroy: (req, res) => {
+    /*destroy: (req, res) => {
         const idProduct = req.params.id;
         const productDelete = products.filter(element => element.id != idProduct);
         let deletedProducts = JSON.stringify(productDelete, null, ' ');
 
         fs.writeFileSync(productsFilePath, deletedProducts, 'utf-8');
         res.render('carrito1', { products })
-    }
+    }*/
 };
 
 module.exports = crearProducControllers;

@@ -12,7 +12,7 @@
     <div class="creation-product-form-container">
         <article>
 
-            <form action="/crear/create2" method="post" class="creation-product-form">
+            <form action="/crear/create" method="post" class="creation-product-form">
     
                 <label for="">Nombre del evento</label>
                 <input type="text" id="name" name="name"> 
@@ -28,7 +28,14 @@
 
                 <label for="">Detalles</label>
                 <input type="text" id="description" name="description"> 
-    
+
+                <label for="">Imágenes</label>
+                <input type="file" id="image">
+
+                <label for="">Tipo de entrada y precio</label>
+                <input type="text" id="typeOfEntry" id="typeOfEntry"> 
+                <input type="number" id="price" id="price"> 
+
                 <div class="buttons-container">
                     <button class="cancel" type="reset">Cancelar</button>
                     <button class="accept" type="submit">Aceptar</button>

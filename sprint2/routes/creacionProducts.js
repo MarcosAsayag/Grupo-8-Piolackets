@@ -18,7 +18,7 @@ router.get('/edition/:id', crearProducControllers.confirmacion);
 router.get('/update/:id', crearProducControllers.edicion);
 
 //Borrar un producto
-router.delete('/delete/:id', productsController.destroy);
+/*router.delete('/delete/:id', productsController.destroy);*/
 
 
 module.exports = router; 
