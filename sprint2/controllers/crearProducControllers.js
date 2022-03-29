@@ -19,8 +19,6 @@ const crearProducControllers = {
 
             ...req.body,
         }
-        console.log(req.body);
-        console.log(productoNuevo);
 
         products.push(productoNuevo);
 
@@ -29,48 +27,14 @@ const crearProducControllers = {
         fs.writeFileSync(productsFilePath, nuevoProducto, 'utf-8');
         res.render('products/creacionDeProductos-1');
     },
-    
-    crearPagina2: (req, res) => {
 
-        let productoNuevo2 = {
-            id: products[products.length-1].id + 1,
-
-            ...req.body,
-        }
-
-        products.push(productoNuevo2);
-
-        let nuevoProducto2 = JSON.stringify(products, null, ' ');
-
-        fs.writeFileSync(productsFilePath, nuevoProducto2, 'utf-8');
-        res.render('products/creacionDeProductos-2');
-
-        res.render('products/creacionDeProductos-2');
-    },
-
-    almacenar2: (req, res) => {
-
-        let productoNuevo2 = {
-            id:products[products.length-1].id + 1,
-
-            ...req.body,
-        }
-
-        products.push(productoNuevo2);
-
-        let nuevoProducto2 = JSON.stringify(products, null, ' ');
-
-        fs.writeFileSync(productsFilePath, nuevoProducto2, 'utf-8');
-        res.render('products/creacionDeProductos-2');
-    } ,
-
-    confirmacion: (req, res) => {
+    edit: (req, res) => {
         const idProduct = req.params.id;
         const productEdit = products.filter(element => element.id == idProduct);
         res.render('products/confirmacionEntradas', { productEdit })
     },
 
-    edicion: (req, res) => {
+    update: (req, res) => {
         const idProduct = req.params.id;
         const productUpdate = products.filter(element => element.id != idProduct);
 
@@ -80,20 +44,20 @@ const crearProducControllers = {
         }
 
         productUpdate.push(productEdited);
-        let editedProducts = JSON.stringiffy(productUpdate, null, ' ');
+        let editedProducts = JSON.stringify(productUpdate, null, ' ');
 
         fs.writeFileSync(productsFilePath, editedProducts, 'utf-8');
-        res.render('products', { products });
+        res.render('products/confirmacionEntradas', { products });
     },
 
-    /*destroy: (req, res) => {
+    destroy: (req, res) => {
         const idProduct = req.params.id;
         const productDelete = products.filter(element => element.id != idProduct);
         let deletedProducts = JSON.stringify(productDelete, null, ' ');
 
         fs.writeFileSync(productsFilePath, deletedProducts, 'utf-8');
         res.render('carrito1', { products })
-    }*/
+    }
 };
 
 module.exports = crearProducControllers;

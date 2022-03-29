@@ -1,16 +1,5 @@
 [
  {
-  "id": 1,
-  "name": "Dula Peep",
-  "description": "ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac",
-  "price": 6757.42,
-  "discount": 15,
-  "time": "03/03/22",
-  "hour": 14,
-  "place": "Hipódromo de San Isidro",
-  "image": "img-concert-4.jpg"
- },
- {
   "id": 2,
   "name": "The Strokes",
   "description": "justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam",
@@ -91,5 +80,22 @@
   "hour": "4pm",
   "place": "Resistencia",
   "description": "asdadadadadasdasd"
+ },
+ {
+  "id": 30,
+  "name": "",
+  "time": "",
+  "hour": "",
+  "place": "",
+  "description": ""
+ },
+ {
+  "id": 1,
+  "image": "",
+  "name": "Dua Lipa ",
+  "date": "2022-03-18",
+  "place": "asdasd",
+  "details": " sdfsdfsdf",
+  "typeOfEntry": " s"
  }
 ]

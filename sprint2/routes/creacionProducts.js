@@ -7,18 +7,13 @@ router.get('/create', crearProducControllers.crear);
 //Procesamiento de formulario
 router.post('/create', crearProducControllers.almacenar)
 
-//Formulario de creación 2
-router.get('/create2', crearProducControllers.crearPagina2);
-//Procesamiento de formulario 2
-router.post('/create2', crearProducControllers.almacenar2);
-
 //Edición de productos vista
-router.get('/edition/:id', crearProducControllers.confirmacion);
+router.get('/edition/:id', crearProducControllers.edit);
 //Procesamiento de edición de productos
-router.get('/update/:id', crearProducControllers.edicion);
+router.put('/update/:id', crearProducControllers.update);
 
 //Borrar un producto
-/*router.delete('/delete/:id', productsController.destroy);*/
+router.delete('/delete/:id', productsController.destroy);
 
 
 module.exports = router; 
