@@ -3,6 +3,7 @@ const mainRoutes = require('./routes/mainRoutes');
 const carrito = require('./routes/carritos');
 const registerLogin = require('./routes/registerLogin');
 const creacionProducts = require('./routes/creacionProducts');
+const methodOverride = require('method-override');
 
 const app = express();
 app.use(express.urlencoded({ extended: true }))

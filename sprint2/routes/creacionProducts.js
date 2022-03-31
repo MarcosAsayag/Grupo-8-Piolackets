@@ -13,7 +13,7 @@ router.get('/edition/:id', crearProducControllers.edit);
 router.put('/update/:id', crearProducControllers.update);
 
 //Borrar un producto
-router.delete('/delete/:id', productsController.destroy);
+router.delete('/delete/:id', crearProducControllers.destroy);
 
 
 module.exports = router; 
