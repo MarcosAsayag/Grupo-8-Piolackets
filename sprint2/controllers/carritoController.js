@@ -9,19 +9,19 @@ const carritoController = {
         let carritoId = req.params.id;
         const detalleProducto = products.filter(element => element.id == carritoId);
 
-        res.render('products/carrito1', { detalleProducto : detalleProducto });
+        res.render('products/detail', { detalleProducto : detalleProducto });
     },
 
     carrito2: (req, res) => {
-        res.render(path.join(__dirname,'../views/products/carrito2.ejs'))
+        res.render(path.join(__dirname,'../views/products/compra.ejs'))
     },
 
     carrito3: (req, res) => {
-        res.render(path.join(__dirname,'../views/products/carrito3.ejs'))
+        res.render(path.join(__dirname,'../views/products/compra1.ejs'))
     },
 
     carrito4: (req, res) => {
-        res.render(path.join(__dirname,'../views/products/carrito4.ejs'))
+        res.render(path.join(__dirname,'../views/products/compra2.ejs'))
     }
 };
 

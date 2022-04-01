@@ -5,7 +5,7 @@ const mainRoutesController = {
         res.render(path.join(__dirname,'../views/home1.ejs'))
     },
 
-    home2: (req, res) => {
+    products: (req, res) => {
         res.render(path.join(__dirname,'../views/home2.ejs'))
     }
 };

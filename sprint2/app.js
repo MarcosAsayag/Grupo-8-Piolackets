@@ -16,13 +16,13 @@ app.use(methodOverride('_method'));
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
-app.use('/h', mainRoutes);
+app.use('/', mainRoutes);
 
-app.use('/carritos',carrito);
+app.use('/',carrito);
 
-app.use('/regLog',registerLogin);
+app.use('/',registerLogin);
 
-app.use('/crear', creacionProducts);
+app.use('/create', creacionProducts);
 
 app.listen('3000', () => {
     console.log('Servidor escuchando en puerto 3000');

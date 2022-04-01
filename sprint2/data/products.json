@@ -74,20 +74,12 @@
   "image": "img-concierto-1.jpg"
  },
  {
-  "id": 29,
+  "id": 9,
   "name": "carola",
   "time": "2022-03-16",
   "hour": "4pm",
   "place": "Resistencia",
   "description": "asdadadadadasdasd"
- },
- {
-  "id": 30,
-  "name": "",
-  "time": "",
-  "hour": "",
-  "place": "",
-  "description": ""
  },
  {
   "id": 1,
@@ -97,5 +89,13 @@
   "place": "asdasd",
   "details": " sdfsdfsdf",
   "typeOfEntry": " s"
+ },
+ {
+  "id": 10,
+  "name": "Lo Mas Mejor",
+  "time": "2022-07-07",
+  "hour": "9hs",
+  "place": "Resistencia",
+  "description": "Viene Gladys, La Bomba Tucumana"
  }
 ]
