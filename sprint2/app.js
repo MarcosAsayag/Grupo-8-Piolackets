@@ -1,8 +1,8 @@
 const express = require('express');
 const mainRoutes = require('./routes/mainRoutes');
-const carrito = require('./routes/carritos');
-const registerLogin = require('./routes/registerLogin');
-const creacionProducts = require('./routes/creacionProducts');
+const carritoRoutes = require('./routes/carritos');
+const registerLoginRoutes = require('./routes/registerLogin');
+const creacionProductsRoutes = require('./routes/creacionProducts');
 const methodOverride = require('method-override');
 
 const app = express();
@@ -18,11 +18,11 @@ app.use(express.static('public'));
 
 app.use('/', mainRoutes);
 
-app.use('/',carrito);
+app.use('/',carritoRoutes);
 
-app.use('/',registerLogin);
+app.use('/',registerLoginRoutes);
 
-app.use('/create', creacionProducts);
+app.use('/create', creacionProductsRoutes);
 
 app.listen('3000', () => {
     console.log('Servidor escuchando en puerto 3000');
