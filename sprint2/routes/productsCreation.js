@@ -1,5 +1,5 @@
 const express = require('express');
-const crearProductControllers = require('../controllers/crearProductControllers');
+const crearProductControllers = require('../controllers/productCreationController');
 const router = express.Router();
 
 //Formulario de creación

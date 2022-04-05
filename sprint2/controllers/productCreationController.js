@@ -8,7 +8,7 @@ const crearProducControllers = {
 
     //Formulario de creación de producto
     crear: (req, res) => {
-        res.render('products/creacionDeProductos-1');
+        res.render('products/productsCreation');
     },
 
     //Almacenar los productos nuevos
@@ -25,13 +25,13 @@ const crearProducControllers = {
         let nuevoProducto = JSON.stringify(products, null, ' ');
 
         fs.writeFileSync(productsFilePath, nuevoProducto, 'utf-8');
-        res.render('products/creacionDeProductos-1');
+        res.render('products/productsCreation');
     },
 
     edit: (req, res) => {
         const idProduct = req.params.id;
         const productEdit = products.filter(element => element.id == idProduct);
-        res.render('products/confirmacionEntradas', { productEdit })
+        res.render('products/productsEdition', { productEdit })
     },
 
     update: (req, res) => {
@@ -47,7 +47,7 @@ const crearProducControllers = {
         let editedProducts = JSON.stringify(productUpdate, null, ' ');
 
         fs.writeFileSync(productsFilePath, editedProducts, 'utf-8');
-        res.render('products/confirmacionEntradas', { products });
+        res.render('products/productsEdition', { products });
     },
 
     destroy: (req, res) => {
