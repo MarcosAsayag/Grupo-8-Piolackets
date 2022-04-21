@@ -2,7 +2,7 @@ const express = require('express');
 const mainRoutes = require('./routes/mainRoutes');
 const carritoRoutes = require('./routes/carritos');
 const registerLoginRoutes = require('./routes/registerLogin');
-const creacionProductsRoutes = require('./routes/productsCreation');
+const productsCreation = require('./routes/productsCreation');
 const methodOverride = require('method-override');
 
 const app = express();
@@ -22,7 +22,7 @@ app.use('/',carritoRoutes);
 
 app.use('/',registerLoginRoutes);
 
-app.use('/create', creacionProductsRoutes);
+app.use('/create', productsCreation);
 
 app.listen('3000', () => {
     console.log('Servidor escuchando en puerto 3000');

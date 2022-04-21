@@ -7,12 +7,12 @@ const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 const crearProducControllers = {
 
     //Formulario de creación de producto
-    crear: (req, res) => {
+    create: (req, res) => {
         res.render('products/productsCreation');
     },
 
     //Almacenar los productos nuevos
-    almacenar: (req, res) => {
+    store: (req, res) => {
 
         let productoNuevo = {
             id: products[products.length-1].id + 1,
