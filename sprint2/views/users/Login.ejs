@@ -20,12 +20,13 @@
             </div> 
         </main>
 
-        <form action="/" method="get" class="x">
-            <a>Logo</a>
-            <input type="email" name="user-email" id="Correo" value="Correo" placeholder="Ej: piolackets@email.com" class="x" required>
+        <form action="/user/login" method="post" class="x">
+            <!--<a>Logo</a>-->
             <label for="Correo">Correo</label>
-            <input type="password" name="user-password" id="Contraseña" value="Contraseña" placeholder="piolacketssecretpassword" class="x" required>
+            <input type="email" name="user-email" id="Correo" value="Correo" placeholder="Ej: piolackets@email.com" class="x" required>
             <label for="Contraseña">Contraseña</label>
+            <input type="password" name="user-password" id="Contraseña" value="Contraseña" placeholder="piolacketssecretpassword" class="x" required>
+            <input type="submit">
         </form>
 
         <footer class="footer-fondo">

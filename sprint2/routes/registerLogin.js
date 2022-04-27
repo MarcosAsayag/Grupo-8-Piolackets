@@ -8,6 +8,7 @@ router.post('/register', userController.store);
 
 //Login Form
 router.get('/login', userController.login);
+router.post('/user/login', userController.loginUser)
 
 //User Profile
 router.get('/user/:id', userController.users);

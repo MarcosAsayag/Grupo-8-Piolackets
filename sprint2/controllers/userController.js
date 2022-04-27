@@ -36,6 +36,9 @@ const userController = {
         res.render('users/login');
     },
 
+    loginUser: (req,res) => {
+        res.send('usuario loggeado');
+    }
 };
 
 

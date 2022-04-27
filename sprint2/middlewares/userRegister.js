@@ -14,7 +14,7 @@ const registerValidator = [
         .bail()
         .isLength({ min: 8 })('La contraseña debe tener al menos 8 caracteres'),
         //database check needed
-        //(Opcional) → Deberá tener letras mayúsculas, minúsculas, un número y un carácter especial
+        //(Opcional) → Deberá tener letras mayúsculas, minúsculas, un número y un carácter especial.
     
     //body('image')
 
