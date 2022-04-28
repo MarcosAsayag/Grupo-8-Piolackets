@@ -37,6 +37,7 @@ const userController = {
     },
 
     loginUser: (req,res) => {
+        //res.redirect('users/user');
         res.send('usuario loggeado');
     }
 };
