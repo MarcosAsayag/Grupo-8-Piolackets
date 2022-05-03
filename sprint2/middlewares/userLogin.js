@@ -12,4 +12,4 @@ const loginValidator = [
         //database check needed
 ];
 
-method.export = loginValidator;
+module.exports = loginValidator;
