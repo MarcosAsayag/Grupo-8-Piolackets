@@ -19,13 +19,13 @@
             </div> 
         </main>
 
-        <form action="/" method="get" class="x">
+        <form action="/" method="post" class="x" enctype="multipart/form-data">
             <input type="file" id="avatar">
-            <input type="text" name="user-name" id="Nombre" value="Nombre" placeholder="Ej: Piolackets" class="x" required>
+            <input type="text" name="user-name" id="Nombre" value="Nombre" class="x" required>
             <label for="Nombre">Nombre</label>
-            <input type="email" name="user-email" id="Correo" value="Correo" placeholder="Ej: piolackets@email.com" class="x" required>
+            <input type="email" name="user-email" id="Correo" value="Correo" class="x" required>
             <label for="Correo">Correo</label>
-            <input type="password" name="user-password" id="Contraseña" value="Contraseña" placeholder="piolacketssecretpassword" class="x" required>
+            <input type="password" name="user-password" id="Contraseña" value="Contraseña" class="x" required>
             <label for="Contraseña">Contraseña</label>
         </form>
 

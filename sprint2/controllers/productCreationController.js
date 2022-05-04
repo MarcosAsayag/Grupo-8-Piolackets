@@ -18,6 +18,7 @@ const crearProducControllers = {
             id: products[products.length-1].id + 1,
 
             ...req.body,
+            image: 'default-image.png'
         }
 
         products.push(productoNuevo);
@@ -25,7 +26,7 @@ const crearProducControllers = {
         let nuevoProducto = JSON.stringify(products, null, ' ');
 
         fs.writeFileSync(productsFilePath, nuevoProducto, 'utf-8');
-        res.render('products/productsCreation');
+        res.redirect('/');
     },
 
     edit: (req, res) => {
