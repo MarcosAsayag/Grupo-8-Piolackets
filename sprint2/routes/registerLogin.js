@@ -3,7 +3,7 @@ const userController = require ('../controllers/userController');
 const router = express.Router();
 
 //middlewares
-const loginValidator = require('../middlewares/userLogin');M
+const loginValidator = require('../middlewares/userLogin');
 
 //Register Form
 router.get('/register', userController.register);
