@@ -14,77 +14,9 @@ footer div {
     margin: 25px 15px
 }
 
-/*Home 1*/
-
-.body-home-1{
-    background-color: #85BFCD;
-}
-
-.main-home-1{
-    background-color: #85BFCD;
-}
-
-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.contenedor-logo{
-    margin-top: 25vw;
-}
-
-.logo {
-    display: block;
-    margin: auto;
-    width: 70%;
-}
-
-.form-of-homepage1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.search-nav-bar {
-    padding: 5px 45px;
-    border-radius: 10px;
-    border: none;
-}
-
-.cartelera-button{
-    margin-top: 200px;
-    padding: 5px 10px;
-    border-radius: 10px;
-    border: none;
-    background-color: #2a445e;
-    color: #d6d6d6;
-    font-size: 18px;
-    transition: all 459ms ;
-}
-
-.cartelera-button:hover{
-    background-color: #141414;
-    color: #d6d6d6;
-
-}
 
 /*Home 2*/
-
-/*Botón de usuario del home2*/
-
-.logo-home-2{
-    width: 40%;
-    display: flex;
-    margin: auto;
-    margin-top: 5px;
-}
-
-.usuario {
-    display: inline-block;
-    vertical-align:top;
-}
+/*Tarjetas de productos*/
 
 .body-home-2 {
     background-color: #d6d6d6;
@@ -96,14 +28,11 @@ header {
     margin: 0px;
 }
 
-.logo-container{
-    display: flex;
-    justify-content: space-around;
-}
-
 .conciertos-container-1{
     margin: 10px;
+
 }
+
 
 .separacion{
     width: 200px;
@@ -119,6 +48,7 @@ header {
     background-color: #d6d6d6;
     margin: 20px px;
 }
+
 
 /*Estilos de Slider*/
 
@@ -175,8 +105,8 @@ header {
 
  /*Los estilos del título de cada slider*/
 .concert-tittle{
-    display: inline-block;
-    text-align: center;
+    display: flex;
+    align-items: center;
     margin-left: 55px ;
     background-color: #85BFCD;
     width: 150px;
@@ -186,8 +116,8 @@ header {
 /*Estilos del precio de cada slider*/
 
 .concert-price{
-    display: inline-block;
-    text-align: center;
+    display: flex;
+    align-items: center;
     margin: 0px 55px;
     background-color: #85BFCD;
     width: 150px;
@@ -286,6 +216,120 @@ header {
         background-color: #FFFFFF;
     }
 
+/*Estilos nav Bar*/
+.main-nav-bar{
+    background-color: #85BFCD;
+    border-radius:0 0 40px 40px ;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    -webkit-box-shadow: 0px 3px 16px 0px rgba(0,0,0,0.31);
+    -moz-box-shadow: 0px 3px 16px 0px rgba(0,0,0,0.31);
+    box-shadow: 0px 3px 16px 0px rgba(0,0,0,0.31);
+    margin-bottom: 70px;
+}
+
+.logo-header{
+    width: 120px;
+
+}
+
+.logo-header{
+    display: none;
+}
+
+.logo-header-short{
+    width: 50px;
+}
+
+.bar-btn{
+    font-size: 25px;
+    color: #2a445e;
+    cursor: pointer;
+}
+
+
+.nav-menu{
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    height: 0vh;
+    top: 80px;
+    background: #85BFCD;
+    text-align: center;
+    transition: all .5s;
+    border-radius: 40px;
+}
+
+
+.nav-menu li {
+    display: none;
+    line-height: 30px;
+    margin: 50px 0;
+    transition: all .5s;
+}
+
+.nav-menu li a {
+    color: #2a445e;
+    font-size: 16px ;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nav-menu li a.active, .nas-menu li a:hover{
+    color:#2a445e;
+    transition: .3s;
+}
+
+#check {
+    display: none;
+}
+
+#check:checked ~ .nav-menu {
+    height: 100vh;
+}
+
+#check:checked ~ .nav-menu li{
+    display:block;
+}
+
+/*Products page*/
+
+.products-description-page{
+    color: #000000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.product-price-page{
+    color: #000000;
+    font-size: medium;
+    font-weight: normal;
+}
+
+/*User*/
+
+.user-page-logo-user-conatiner{
+    text-align: center;
+}
+
+.user-list-page ul{
+    list-style: none;
+    text-align: left;
+    color: #4f5b66;
+}
+
+.user-list-page{
+    margin: 10px 25px;
+    padding: 15px 0;
+    background-color: #85BFCD;
+    border-radius: 35px;
+    -webkit-box-shadow: 0px 3px 16px 0px rgba(0,0,0,0.31);
+    -moz-box-shadow: 0px 3px 16px 0px rgba(0,0,0,0.31);
+    box-shadow: 0px 3px 16px 0px rgba(0,0,0,0.31);
+}
 
 /* */
 
@@ -1007,24 +1051,24 @@ button a{
         display: block;
     }
     
-    /*Home 1*/
-    
-    .logo {
-        width: 45%;
-    }
-    
-    .search-nav-bar {
-        padding: 5px 60px;
-        font-size: 23px;
-    }
-    .cartelera-button{
-        margin-top: 150px;
+    /*Home*/
+    .conciertos-container-1{
+        margin: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
 
-    /*Home 2*/
+    .tittles{
+        margin-top: 20px;
+        margin-left: 200px;
+    }
     
+    .separacion{
+        padding-left: 200px;
+    }
 
-/*Estilos de creación de productos 1-2 y de edición-confirmación*/
+    /*Estilos de creación de productos 1-2 y de edición*/
 
     .creation-product-form{
         background-color: #85BFCD;
@@ -1038,6 +1082,18 @@ button a{
     .creation-product-form label{
        color: #FFFFFF;
 
+    }
+
+    /*Pagina users*/
+    .user-list-page{
+        margin: 10px 105px;
+        padding: 40px 0;
+        background-color: #85BFCD;
+        border-radius: 35px;
+    }
+
+    .user-list-page ul{
+        line-height: 40px;
     }
 
 }
@@ -1083,11 +1139,6 @@ button a{
     }
 
     /*Home 1*/
-    
-    header{
-        display: flex;
-        justify-content: center;
-    }
 
     .logo {
         width: 45%;
@@ -1106,7 +1157,95 @@ button a{
     .creation-product-form{
         padding: 15px 200px;
     }
+    
+    /*Nav-bar*/
+    .logo-header {
+        display: block;
+        width: 140px;
+        margin-left: 50px;
+    }
+    
+    .logo-header-short{
+        display: none;
+    }
 
+    .cart-list{
+        display: none;
+    }
+
+    .cart-button svg{
+        width: 40px;
+        position: relative;
+        top:15px;
+    }
+
+    .user-logo{
+        position: relative;
+        right: 60px;
+    }
+
+    nav{
+        height: 100px;
+    }
+
+    .bar-btn{
+        display:none;
+    }
+
+    .nav-menu{
+        position: relative;
+        height: 100px;
+        top: 0;
+        background: none;
+        transition: none;
+        text-align: right;
+        margin-right: 50px;
+    }
+
+    .nav-menu li{
+        display: inline-block;
+        line-height: 100px;
+        margin: 0 20px;
+        transition: none;
+    }
+
+    .nav-menu li a {
+        font-size: 12px;
+    }
+
+    .banner-text h1 {
+        font-size: 70px;
+        margin-bottom: 30px;
+    }
+
+    .banner-text h2 {
+        font-size: 20px;
+    }
+
+    .product-description-slider {
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+        background-color: transparent;
+        border-radius: 0 ;
+    
+    /*El shadow de cada tarjeta*/
+        box-shadow: none
+    }
+
+    .product-description-slider img {
+        border-radius: 0;
+        width: 100%;
+    }
+
+     /*Los estilos del título de cada slider*/
+    .concert-tittle, .concert-price{
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 23px;
+    width: 200px;
+    height: 15px;
+}
 }
 
 @media (min-width:1200px) {
@@ -1377,21 +1516,6 @@ button a{
     border-radius: 5%;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

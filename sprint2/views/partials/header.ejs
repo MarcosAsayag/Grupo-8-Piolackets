@@ -1,18 +1,57 @@
 <header>
-    <nav class="header-C1ocultar1">
-        <article class="C1header2">
-            <div class="header-flex1">
-                <button id="header-iconos1" type="submit"><i class="fas fa-bars"></i></button> 
-                <button id="header-logo2" type="submit"><a href="http://localhost:3030/home2"><img width="50px" src="\img\1322.png"></a></button>
-                <button id="header-iconos1" type="submit"><i class="far fa-user"></i></button>
-            </div>
-        </article>
-    </nav>
-    <nav class="header-2">
-        <div class="header-flex2">
-            <button id="header-iconos1" type="submit"><i class="fas fa-bars"></i></button> 
-            <button class="botom-img" type="submit"><a href="http://localhost:3030/home2"><img src="\img\132.png"></a></button> 
-            <button id="header-iconos1" type="submit"><i class="far fa-user"></i></button>
-        </div>           
+    <nav class="main-nav-bar">
+        <!--Logo-->
+        <div>
+            <img src="/img/132.png" alt="logo" class="logo-header">
+            <img src="/img/1322.png" alt="logo" class="logo-header-short">
+        </div>
+
+        <!--Menu hamburguesa-->
+        <input type="checkbox" id="check">
+        <label for="check" class="bar-btn">
+            <svg id="Burguer_menu" data-name="Burguer menu" xmlns="http://www.w3.org/2000/svg" width="34" height="30" viewBox="0 0 34 30">
+                <g id="Rectángulo_8" data-name="Rectángulo 8" fill="#2a445e" stroke="#2a445e" stroke-width="1">
+                  <rect width="34" height="8" rx="4" stroke="none"/>
+                  <rect x="0.5" y="0.5" width="33" height="7" rx="3.5" fill="none"/>
+                </g>
+                <g id="Rectángulo_12" data-name="Rectángulo 12" transform="translate(0 11)" fill="#2a445e" stroke="#2a445e" stroke-width="1">
+                  <rect width="34" height="8" rx="4" stroke="none"/>
+                  <rect x="0.5" y="0.5" width="33" height="7" rx="3.5" fill="none"/>
+                </g>
+                <g id="Rectángulo_13" data-name="Rectángulo 13" transform="translate(0 22)" fill="#2a445e" stroke="#2a445e" stroke-width="1">
+                  <rect width="34" height="8" rx="4" stroke="none"/>
+                  <rect x="0.5" y="0.5" width="33" height="7" rx="3.5" fill="none"/>
+                </g>
+              </svg>              
+        </label>
+        <ul class="nav-menu">
+            <li> <a href="" class="active">Inicio</a>  </li>
+            <li> <a href="">Productos</a> </li>
+            <li> <a href=""> Sobre Nosotros</a></li>
+            <!--Botón de carrito-->
+            <li class="cart-button">
+                <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="45" viewBox="0 0 50 45">
+                            <defs>
+                              <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 323 288">
+                                <image width="323" height="288" xlink:href="data:image/png;base64,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"/>
+                              </pattern>
+                            </defs>
+                            <rect id="cart-outline" width="50" height="45" fill="url(#pattern)"/>
+                          </svg>                          
+                </a>
+            </li>
+
+            <li ><a class="cart-list" href="#">Carrito</a></li>
+
+        </ul>
+         <!--Botón de usuario-->
+                <a class="user-logo" href="">
+                        <svg id="Logo_user" data-name="Logo user" xmlns="http://www.w3.org/2000/svg" width="40" height="37" viewBox="0 0 40 37">
+                        <path id="Trazado_1" data-name="Trazado 1" d="M68.26,47.982c-11.248-.141-20.43,8.353-20.278,18.756.15,9.978,8.933,18.1,19.72,18.24,11.249.142,20.43-8.351,20.276-18.754C87.831,56.245,79.047,48.121,68.26,47.982Zm12.155,29.1a.4.4,0,0,1-.3.114.394.394,0,0,1-.288-.142,11.662,11.662,0,0,0-3.11-2.632,18.049,18.049,0,0,0-17.466,0,11.659,11.659,0,0,0-3.11,2.631.394.394,0,0,1-.288.142.4.4,0,0,1-.3-.114,14.988,14.988,0,0,1-4.488-10.338C50.9,58.093,58.58,50.85,67.94,50.828S84.9,57.837,84.9,66.481a14.969,14.969,0,0,1-4.488,10.605Z" transform="translate(-47.981 -47.981)" fill="#2a445e"/>
+                        <path id="Trazado_2" data-name="Trazado 2" d="M195.047,144a6.842,6.842,0,0,0-5.2,2.288A7.737,7.737,0,0,0,188.032,152c.3,4.314,3.447,7.83,7.015,7.83s6.708-3.517,7.015-7.829a7.669,7.669,0,0,0-1.829-5.7A6.832,6.832,0,0,0,195.047,144Z" transform="translate(-175.047 -136.577)" fill="#2a445e"/>
+                    </svg>
+                </a>
+                
     </nav>
 </header>
