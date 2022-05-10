@@ -63,6 +63,10 @@ footer div {
     box-shadow: 6px 7px 31px -6px rgba(120,120,120,1);
 }
 
+.cart-list{
+    display: none;
+}
+
 .product-description-slider ul {
     display: flex;
     padding: 0;
