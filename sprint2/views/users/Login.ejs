@@ -9,25 +9,20 @@
             <%- include('../partials/header.ejs') %>
         </header>
 
-        <main>
-            <div class="x"><img src="/img/Piolackets (7).png"></div>
-            <div class="x">
-                <h2>¡Hola!</h2>
-                <h3>Ingresa tu correo y contraseña</h3>
-
-                <p>Si no tiene cuenta por favor suscríbase acá</p>
-                <button src="/sprint2/views/users/registro.ejs">Suscribite</button>
-            </div> 
-        </main>
-
-        <form action="/user/login" method="post" class="x">
-            <!--<a>Logo</a>-->
-            <label for="Correo">Correo</label>
-            <input type="email" name="user-email" id="Correo" value="Correo" placeholder="Ej: piolackets@email.com" class="x" required>
-            <label for="Contraseña">Contraseña</label>
-            <input type="password" name="user-password" id="Contraseña" value="Contraseña" placeholder="piolacketssecretpassword" class="x" required>
-            <input type="submit">
+        <main class="login-main"> 
+        <h1 class="login-title">¡Bienvenido a Piolackets!</h1>
+        <button href="/sprint2/views/users/register.ejs" class="login-btns">Registrarse</button>
+        <!--Agregar lineas y logo en medio con href que dirija al home-->
+        <form action="/user/login" method="post" class="login-form">
+            <div class="login-fields">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="x" required>
+                <label for="Contraseña">Contraseña</label>
+                <input type="password" name="user-password" id="Contraseña" class="x" required>
+            </div>
+            <input type="submit" value="Ingresar" class="login-btns">
         </form>
+        </main>
 
         <footer class="footer-fondo">
             <%- include('../partials/footer.ejs') %>

@@ -1525,11 +1525,63 @@ button a{
 
 
 
+/*******************************************/
+/*USER LOGIN VIEW STYLES*/
+
+
+.login-main{    /*Genera estructura de columna*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}   
 
 
 
+.login-title{
+    color:#2A445E;
+} /*Estiliza el titulo de bienvenida*/
 
 
+
+.login-btns{    /*Botones*/
+    display: block;
+    font-size: 25px;
+    margin: auto;
+    padding: 5px 35px;
+    background: #2a445e;
+    color: #ffffff;
+    border: none;
+} 
+
+.login-form{/*Estilos del Formulario*/
+    display: block;
+} 
+
+.login-fields{/*Estilos de los campos*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.login-fields label {
+    color: #2A445E;
+    font-size: 20px;
+}
+
+.login-fields input {
+    border: 0px solid #ffffff;
+    box-shadow: 0px 0px 10px rgb(100,100,100);
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+ 
 
 
 
