@@ -12,7 +12,12 @@
         <main class="login-main"> 
         <h1 class="login-title">¡Bienvenido a Piolackets!</h1>
         <button href="/sprint2/views/users/register.ejs" class="login-btns">Registrarse</button>
-        <!--Agregar lineas y logo en medio con href que dirija al home-->
+        <div class="or">
+            <div class="or-left-line"></div>
+            <span class="or-or" href="/sprint2/views/home.ejs">O</span>
+            <div class="or-right-line"></div>
+            <!--Agregar logo en medio con href que dirija al home-->
+        </div>
         <form action="/user/login" method="post" class="login-form">
             <div class="login-fields">
                 <label for="email">Email</label>
