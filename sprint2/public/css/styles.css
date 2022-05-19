@@ -312,30 +312,18 @@ footer div {
     font-size: medium;
     font-weight: normal;
 }
+/***************************************************************************/
+/*USER*/
 
-/*User*/
+/*-webkit-box-shadow: 0px 3px 16px 0px rgba(0,0,0,0.31);
+-moz-box-shadow: 0px 3px 16px 0px rgba(0,0,0,0.31);
+box-shadow: 0px 3px 16px 0px rgba(0,0,0,0.31);*/
 
-.user-page-logo-user-conatiner{
-    text-align: center;
-}
 
-.user-list-page ul{
-    list-style: none;
-    text-align: left;
-    color: #4f5b66;
-}
 
-.user-list-page{
-    margin: 10px 25px;
-    padding: 15px 0;
-    background-color: #85BFCD;
-    border-radius: 35px;
-    -webkit-box-shadow: 0px 3px 16px 0px rgba(0,0,0,0.31);
-    -moz-box-shadow: 0px 3px 16px 0px rgba(0,0,0,0.31);
-    box-shadow: 0px 3px 16px 0px rgba(0,0,0,0.31);
-}
 
-/* */
+
+/*****************************************************************************/
 
 .C1header{
     background-color: #85BFCD;
@@ -1250,6 +1238,14 @@ button a{
     width: 200px;
     height: 15px;
 }
+
+    /*LOGIN*/
+    .login-main{
+        margin: 5% 15%;
+        padding: 10% 5%;
+        border: 2px solid white;
+        background-color: #F7AA62;
+    }
 }
 
 @media (min-width:1200px) {
@@ -1341,119 +1337,11 @@ button a{
         margin-top: 100px;
     }
     
+    /**************************************/
+    /*LOGIN*/
+    
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1612,6 +1500,7 @@ button a{
     margin-top: 10px;
     margin-bottom: 15px;
 }
+
  
 
 
