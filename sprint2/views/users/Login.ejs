@@ -11,12 +11,12 @@
 
         <main class="login-main"> 
         <h1 class="login-title">¡Bienvenido a Piolackets!</h1>
-        <button href="/sprint2/views/users/register.ejs" class="login-btns">Registrarse</button>
+        <button href="/sprint2/views/users/register.ejs" class="general-btns">Registrarse</button>
         <div class="or">
             <div class="or-left-line"></div>
-            <span class="or-or" href="/sprint2/views/home.ejs">O</span>
+            <span class="or-or" href="/sprint2/views/home.ejs">O<!--Agregar logo--></span>
             <div class="or-right-line"></div>
-            <!--Agregar logo en medio con href que dirija al home-->
+            
         </div>
         <form action="/user/login" method="post" class="login-form">
             <div class="login-fields">
@@ -25,7 +25,7 @@
                 <label for="Contraseña">Contraseña</label>
                 <input type="password" name="user-password" id="Contraseña" class="x" required>
             </div>
-            <input type="submit" value="Ingresar" class="login-btns">
+            <input type="submit" value="Ingresar" class="general-btns">
         </form>
         </main>
 

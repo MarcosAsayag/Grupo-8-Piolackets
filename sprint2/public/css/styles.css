@@ -319,6 +319,29 @@ footer div {
 -moz-box-shadow: 0px 3px 16px 0px rgba(0,0,0,0.31);
 box-shadow: 0px 3px 16px 0px rgba(0,0,0,0.31);*/
 
+.user-main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-details{
+    background-color:#F7AA62;
+    padding: 30px 40px;
+    text-align: center;
+}
+.small-btns{    /*Botones pequeños*/
+    display: block;
+    font-size: 20px;
+    margin: auto;
+    padding: 5px 35px;
+    background: #2a445e;
+    color: #ffffff;
+    border: none;
+} 
 
 
 
@@ -1464,7 +1487,7 @@ button a{
 }
 
 
-.login-btns{    /*Botones*/
+.general-btns{    /*Botones*/
     display: block;
     font-size: 25px;
     margin: auto;
